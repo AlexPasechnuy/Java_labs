@@ -45,7 +45,7 @@ public abstract class AbsDoctor {
     public void checkAndAddRec(AbsRecept rec) {
         for (int i = 0; i < getLength(); i++) {
             if (getRec(i).equals(rec)) {
-                System.out.println("Records are equal!");
+                System.out.println("Records are equal!\n");
                 return;
             }
         }

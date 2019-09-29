@@ -1,13 +1,17 @@
 package Lab1.Ind_task;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class DoctorList extends AbsDoctor {
-    private AbsRecept[] arr;
+    List<AbsRecept> arr = new ArrayList<AbsRecept>();
 
     private String surn;
     private String spec;
 
     DoctorList(String surn, String spec){
-        arr = new AbsRecept[0];
+        //arr = new AbsRecept[0];
         this.surn = surn;
         this.spec = spec;
     }
@@ -20,29 +24,30 @@ public class DoctorList extends AbsDoctor {
 
     public void setSpec(String spec){this.spec = spec;}
 
-    public AbsRecept getRec(int num){return arr[num];}
+    public AbsRecept getRec(int num){return arr.get(num);}
 
     public void sortByDay(){
-        java.util.Arrays.sort(arr);
+        Collections.sort(arr);
     }
 
     public void sortByVisCount(){
-        java.util.Arrays.sort(arr, new VisCountComp());
+        Collections.sort(arr, new VisCountComp());
     }
 
     public void addRec(AbsRecept rec){
-        AbsRecept[] temp = new AbsRecept[getLength()];
-        for(int i = 0; i < getLength(); i++){
-            temp[i] = arr[i];
-        }
-        arr = new AbsRecept[getLength() + 1];
-        for(int i = 0; i < temp.length; i++){
-            arr[i] = temp[i];
-        }
-        arr[getLength() - 1] = rec;
+//        List<AbsRecept> temp = new ArrayList<AbsRecept>(getLength());
+//        for(int i = 0; i < getLength(); i++){
+//            temp.set(i, arr.get(i));
+//        }
+//        arr = new ArrayList<AbsRecept>(getLength() + 1);
+//        for(int i = 0; i < temp.size(); i++){
+//            arr.set(i, temp.get(i));
+//        }
+//        arr.set(getLength() - 1, rec);
+        arr.add(rec);
     }
 
     public int getLength(){
-        return arr.length;
+        return arr.size();
     }
 }
