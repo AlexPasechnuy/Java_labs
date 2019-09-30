@@ -15,21 +15,22 @@ public class GenLib<T> {
         if(firstStart < 0 || secEnd > arr.length || firstStart > firstEnd || secStart > secEnd || secStart < firstEnd){
             //throw exception
         }
-        int firstSize = firstEnd - firstStart;
-        int midSize = secStart - firstEnd;
-        int secSize = secEnd - secStart;
+        int firstSize = firstEnd - firstStart + 1;
+        int midSize = secStart - firstEnd - 1;
+        int secSize = secEnd - secStart + 1;
 
         Object[] first = new Object[firstSize];
         Object[] mid = new Object[midSize];
         Object[] second = new Object[secSize];
 
         System.arraycopy(arr, firstStart, first, 0 ,  firstSize);
-        System.arraycopy(arr, firstEnd, mid, 0 ,  midSize);
+        System.arraycopy(arr, firstEnd + 1, mid, 0 ,  midSize);
         System.arraycopy(arr, secStart, second, 0 ,  secSize);
 
+        //bug below
         System.arraycopy(second, 0, arr, firstStart,  secSize);
         System.arraycopy(mid, 0, arr, firstStart + secSize,  midSize);
-        System.arraycopy(first, 0, arr, firstStart + secSize + midSize,  secSize);
+        System.arraycopy(first, 0, arr, firstStart + secSize + midSize,  firstSize);
     }
 
     public static<T> void swapNeighb(){
