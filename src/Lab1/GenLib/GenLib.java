@@ -4,12 +4,6 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class GenLib<T> {
-    public static <T> T[] swapGroups(int length, T... t) {
-        Object[] temp = new Object[t.length];
-        System.arraycopy(t, 0, temp, t.length - length, length);
-        System.arraycopy(t, t.length - length, temp, 0, length);
-        return (T[]) temp;
-    }
 
     public static<T> void swapGrp(T[] arr, int firstStart, int firstEnd, int secStart, int secEnd ){
         if(firstStart < 0 || secEnd > arr.length || firstStart > firstEnd || secStart > secEnd || secStart < firstEnd){
@@ -27,14 +21,18 @@ public class GenLib<T> {
         System.arraycopy(arr, firstEnd + 1, mid, 0 ,  midSize);
         System.arraycopy(arr, secStart, second, 0 ,  secSize);
 
-        //bug below
         System.arraycopy(second, 0, arr, firstStart,  secSize);
         System.arraycopy(mid, 0, arr, firstStart + secSize,  midSize);
         System.arraycopy(first, 0, arr, firstStart + secSize + midSize,  firstSize);
     }
 
-    public static<T> void swapNeighb(){
-
+    public static<T> void swapNeighb(T[] arr){
+        T temp;
+        for(int i = 0; i < ((arr.length/2)*2); i+=2){
+            temp = arr[i];
+            arr[i] = arr[i+1];
+            arr[i+1] = temp;
+        }
     }
 
     public static<T> void insertIn(){
@@ -74,17 +72,21 @@ public class GenLib<T> {
         return (T[]) temp;
     }
 
-    public static void main(String[] args) {
-        GenLib utils = new GenLib();
-        String[] arr = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"};
-        String[] arr2 = {"f", "g" , "s"};
-//        Arrays.toString(exchangeGroups(2, arr, arr2));
-//        System.out.println(arr.toString());
-//        System.out.println(arr2.toString());
-        swapGrp(arr, 2, 5, 7, 9);
+    public void print(T[] arr){
+        String str = "";
         for (int i = 0; i < arr.length; i++){
             System.out.print(arr[i]);
         }
-        //System.out.println(arr.toString());
+        System.out.println();
+    }
+
+    public static void main(String[] args) {
+        GenLib utils = new GenLib();
+        String[] arr1 = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"};
+        String[] arr2 = {"l", "m" , "n", "o", "p", "q", "r", "s", "t", "u", "v"};
+        swapGrp(arr1, 2, 5, 7, 9);
+        utils.print(arr1);
+        swapNeighb(arr1);
+        utils.print(arr1);
     }
 }
