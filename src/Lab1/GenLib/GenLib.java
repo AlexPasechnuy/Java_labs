@@ -5,9 +5,9 @@ import java.util.Arrays;
 
 public class GenLib<T> {
 
-    public static<T> void swapGrp(T[] arr, int firstStart, int firstEnd, int secStart, int secEnd ){
+    public static<T> void swapGrp(T[] arr, int firstStart, int firstEnd, int secStart, int secEnd ) throws WrongUsage{
         if(firstStart < 0 || secEnd > arr.length || firstStart > firstEnd || secStart > secEnd || secStart < firstEnd){
-            //throw exception
+            throw new WrongUsage();
         }
         int firstSize = firstEnd - firstStart + 1;
         int midSize = secStart - firstEnd - 1;
@@ -43,19 +43,6 @@ public class GenLib<T> {
 
     }
 
-    public static <T> T[] swapElements(T... t) {
-        Object[] temp = new Object[t.length];
-        for (int i = 0; i < t.length; i = i + 2) {
-            if (i != t.length - 1) {
-                temp[i] = t[i + 1];
-                temp[i + 1] = t[i];
-            } else {
-                temp[i] = t[i];
-            }
-        }
-        return (T[]) temp;
-    }
-
     public static <T> T[] addGroup(int i, T[] in, T... t) {             ///[1,2,3,4,5] +(2)[6,7,8] = [1,2,6,7,8,4,5]
         Object[] temp = new Object[in.length + t.length];
         System.arraycopy(in, 0, temp, 0, i);
@@ -84,7 +71,11 @@ public class GenLib<T> {
         GenLib utils = new GenLib();
         String[] arr1 = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k"};
         String[] arr2 = {"l", "m" , "n", "o", "p", "q", "r", "s", "t", "u", "v"};
-        swapGrp(arr1, 2, 5, 7, 9);
+        try {
+            swapGrp(arr1, 2, 5, 7, 9);
+        }catch(WrongUsage wr) {
+            System.out.println(wr.getMessage());
+        }
         utils.print(arr1);
         swapNeighb(arr1);
         utils.print(arr1);
