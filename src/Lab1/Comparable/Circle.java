@@ -19,7 +19,7 @@ public class Circle implements Comparable<Circle> {
         Scanner sc = new Scanner(System.in);
         Circle[] arr = new Circle[5];
         for(int i = 0; i < 5; i++){
-            System.out.print("Enter radius of circle #" + i + ": ");
+            System.out.print("Enter radius of circle #" + (i+1) + ": ");
             int radius = sc.nextInt();
             arr[i] = new Circle(radius);
         }
