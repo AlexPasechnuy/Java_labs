@@ -1,7 +1,6 @@
 package Lab1.Minimum;
 
 import Lab1.Minimum.Abstract.MyFunc_Abs;
-import Lab1.Minimum.FunctInterfaces.FunctInterFunc;
 import Lab1.Minimum.Interface.IntFunction;
 import Lab1.Minimum.Interface.MyFunc_Int;
 

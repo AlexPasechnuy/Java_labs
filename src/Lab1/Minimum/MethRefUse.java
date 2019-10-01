@@ -1,7 +1,5 @@
 package Lab1.Minimum;
 
-import Lab1.Minimum.FunctInterfaces.FunctInterFunc;
-
 public class MethRefUse {
     double findMin(int from, int to, int step, FunctInterFunc f) throws WrongMinimum{
         if(from > to) throw new WrongMinimum();

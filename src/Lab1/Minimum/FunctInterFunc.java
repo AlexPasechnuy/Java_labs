@@ -1,6 +1,4 @@
-package Lab1.Minimum.FunctInterfaces;
-
-import Lab1.Minimum.WrongMinimum;
+package Lab1.Minimum;
 
 public interface FunctInterFunc {
     int func(int x);

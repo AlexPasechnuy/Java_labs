@@ -1,13 +1,13 @@
 package Lab1.Arr_of_pts;
 
-import java.util.Arrays;
+        import java.util.Arrays;
 
 public class One_dim extends  AbstractArrayOfPoints{
     private double[] pts;
 
-   One_dim(int num){
-       pts = new double[num * 2];
-   }
+    One_dim(int num){
+        pts = new double[num * 2];
+    }
 
     public void setPoint(int i, double x, double y){
         pts[i * 2] = x;
@@ -16,17 +16,17 @@ public class One_dim extends  AbstractArrayOfPoints{
 
     // Getting X of the i-th point:
     public double getX(int i){
-       return pts[i*2];
+        return pts[i*2];
     }
 
     // Getting Y of the i-th point:
     public double getY(int i){
-       return pts[i*2 + 1];
+        return pts[i*2 + 1];
     }
 
     // Getting the number of points:
     public int count(){
-       return pts.length / 2;
+        return pts.length / 2;
     }
 
     // Adding a point to the end of an array:
