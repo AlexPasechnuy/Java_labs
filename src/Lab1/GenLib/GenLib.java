@@ -45,8 +45,10 @@ public class GenLib<T> {
         return temp;
     }
 
-    public static<T> void replOtherArr(){
-
+    public static<T> T[] replWithOtherArr(T[] from, int fromPos,  T[] to, int toPos, int num) throws WrongUsage{
+        if(toPos + num > to.length || fromPos + num > from.length){ throw new WrongUsage();}
+        System.arraycopy(from, fromPos, to, toPos, num);
+        return to;
     }
 
     public void print(T[] arr){
@@ -67,10 +69,19 @@ public class GenLib<T> {
             System.out.println(wr.getMessage());
         }
         utils.print(arr1);
+
         swapNeighb(arr1);
         utils.print(arr1);
+
         try {
             arr1 = insert(arr2, 3, arr1, 4, 3);
+        }catch(WrongUsage wr) {
+            System.out.println(wr.getMessage());
+        }
+        utils.print(arr1);
+
+        try {
+            arr1 = replWithOtherArr(arr2, 1, arr1, 5, 4);
         }catch(WrongUsage wr) {
             System.out.println(wr.getMessage());
         }
