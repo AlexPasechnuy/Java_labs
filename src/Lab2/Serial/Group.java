@@ -8,12 +8,14 @@ public class Group implements Serializable {
 
     Student[] arr = new Student[0];
 
-    void add(Student st){
+    public void add(Student st){
         arr = Arrays.copyOf(arr, arr.length + 1);
         arr[arr.length-1] = st;
     }
 
-    int getLength(){return arr.length;}
+    public int getLength(){return arr.length;}
 
-    Student getStud(int n){return arr[n];}
+    public Student getStud(int n){return arr[n];}
+
+    public Student[] getStuds(){return arr;}
 }
