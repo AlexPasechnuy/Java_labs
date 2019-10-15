@@ -1,11 +1,13 @@
 package Lab2.SortInt;
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class SortIntsFromFile {
-    ArrayList<Integer> arr = new ArrayList<Integer>();
+    Integer[] arr = new Integer[0];
 
     void readFromFile(String filename){
         try {
@@ -15,7 +17,8 @@ public class SortIntsFromFile {
             try{
                 StringTokenizer st = new StringTokenizer(s);
                 while (st.hasMoreTokens()){
-                    arr.add(Integer.parseInt(st.nextToken()));
+                    arr = Arrays.copyOf(arr, arr.length+1);
+                    arr[arr.length - 1]= Integer.parseInt(st.nextToken());
                 }
             }finally{
                 br.close();
@@ -29,8 +32,8 @@ public class SortIntsFromFile {
         try {
             FileWriter fw = new FileWriter(filename);
             PrintWriter pw = new PrintWriter(fw);
-            for(int i = 0; i < arr.size(); i++){
-                pw.print(arr.get(i)+ " ");
+            for(int i = 0; i < arr.length; i++){
+                pw.print(arr[i]+ " ");
             }
             pw.close();
         }catch(IOException ex){
@@ -39,11 +42,11 @@ public class SortIntsFromFile {
     }
 
     void sortByDecr(){
-        java.util.Collections.sort(arr, new DecrComp());
+        java.util.Arrays.sort(arr, new DecrComp());
     }
 
     void sortByIncDigSum(){
-        java.util.Collections.sort(arr, new IncrDigitsSumComp());
+        java.util.Arrays.sort(arr, new IncrDigitsSumComp());
     }
 
     public static void main(String[] args) {
