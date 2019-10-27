@@ -1,6 +1,6 @@
 package Lab1.Hierarchy;
 
-public class Human {
+class Human {
     private String name;
     private String surname;
     private String gender;

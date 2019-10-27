@@ -1,6 +1,6 @@
 package Lab1.Hierarchy;
 
-public class Employee extends Citizen {
+class Employee extends Citizen {
     private String company;
     private String position;
 

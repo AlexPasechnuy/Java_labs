@@ -1,6 +1,6 @@
 package Lab1.Hierarchy;
 
-public class Citizen extends Human {
+class Citizen extends Human {
     private String country;
     private String status;
 
