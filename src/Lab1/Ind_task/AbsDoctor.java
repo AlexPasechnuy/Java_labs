@@ -59,8 +59,6 @@ public abstract class AbsDoctor {
                 counter++;
         }
         AbsRecept[] arr = new AbsRecept[counter];
-        if(counter == 0)
-            return arr;
         for (int i = 0; i < getLength(); i++) {
             counter = 0;
             if (getRec(i).getDay() == day) {

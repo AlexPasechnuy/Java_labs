@@ -1,15 +1,14 @@
 package Lab2.SortInt;
 
 import java.io.*;
-import java.lang.reflect.Array;
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.InputMismatchException;
 import java.util.StringTokenizer;
 
 public class SortIntsFromFile {
     Integer[] arr = new Integer[0];
 
-    void readFromFile(String filename){
+    void readFromFile(String filename) throws IOException, InputMismatchException{
         try {
             FileReader fr = new FileReader(filename);
             BufferedReader br = new BufferedReader(fr);
@@ -17,8 +16,13 @@ public class SortIntsFromFile {
             try{
                 StringTokenizer st = new StringTokenizer(s);
                 while (st.hasMoreTokens()){
-                    arr = Arrays.copyOf(arr, arr.length+1);
-                    arr[arr.length - 1]= Integer.parseInt(st.nextToken());
+                    try {
+                        int temp = Integer.parseInt(st.nextToken());;
+                        arr = Arrays.copyOf(arr, arr.length + 1);
+                        arr[arr.length - 1] = temp;
+                    }catch(NumberFormatException ex){
+                        System.out.println("Incorrect format of some element. It will be skipped!");
+                    }
                 }
             }finally{
                 br.close();
@@ -50,11 +54,19 @@ public class SortIntsFromFile {
     }
 
     public static void main(String[] args) {
-        SortIntsFromFile sort = new SortIntsFromFile();
-        sort.readFromFile("src/Lab2/SortInt/Files/Input.txt");
-        sort.sortByDecr();
-        sort.writeToFile("src/Lab2/SortInt/Files/DecrOutput.txt");
-        sort.sortByIncDigSum();
-        sort.writeToFile("src/Lab2/SortInt/Files/IncrDigSumOutput.txt");
+        try {
+            SortIntsFromFile sort = new SortIntsFromFile();
+            sort.readFromFile("src/Lab2/SortInt/Files/Input.txt");
+            sort.sortByDecr();
+            sort.writeToFile("src/Lab2/SortInt/Files/DecrOutput.txt");
+            sort.sortByIncDigSum();
+            sort.writeToFile("src/Lab2/SortInt/Files/IncrDigSumOutput.txt");
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+        catch (InputMismatchException e) {
+            e.printStackTrace();
+        }
     }
 }

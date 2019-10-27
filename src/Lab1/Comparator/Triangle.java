@@ -1,8 +1,9 @@
 package Lab1.Comparator;
 
+import java.util.Comparator;
 import java.util.Scanner;
 
-public class Triangle {
+public class Triangle{
     int a, b, c;
 
     Triangle(int a, int b, int c){
@@ -25,8 +26,8 @@ public class Triangle {
             int c = sc.nextInt();
             arr[i] = new Triangle(a,b,c);
         }
-        java.util.Arrays.sort(arr, new TriangComp());
-        System.out.println("Sorted by radius: ");
+        java.util.Arrays.sort(arr,  new TriangComp());
+        System.out.println("Sorted by area: ");
         for(int i = 0; i < arr.length; i++){
             System.out.print(arr[i].getArea() + " ");
         }

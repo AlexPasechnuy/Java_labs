@@ -11,7 +11,6 @@ public class DoctorList extends AbsDoctor {
     private String spec;
 
     DoctorList(String surn, String spec){
-        //arr = new AbsRecept[0];
         this.surn = surn;
         this.spec = spec;
     }
@@ -35,15 +34,6 @@ public class DoctorList extends AbsDoctor {
     }
 
     public void addRec(AbsRecept rec){
-//        List<AbsRecept> temp = new ArrayList<AbsRecept>(getLength());
-//        for(int i = 0; i < getLength(); i++){
-//            temp.set(i, arr.get(i));
-//        }
-//        arr = new ArrayList<AbsRecept>(getLength() + 1);
-//        for(int i = 0; i < temp.size(); i++){
-//            arr.set(i, temp.get(i));
-//        }
-//        arr.set(getLength() - 1, rec);
         arr.add(rec);
     }
 
