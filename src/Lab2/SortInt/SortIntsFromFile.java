@@ -17,11 +17,15 @@ public class SortIntsFromFile {
                 StringTokenizer st = new StringTokenizer(s);
                 while (st.hasMoreTokens()){
                     try {
-                        int temp = Integer.parseInt(st.nextToken());;
+                        int temp = Integer.parseInt(st.nextToken());
+                        if (temp <= 0){throw new NonPositiveException();}
                         arr = Arrays.copyOf(arr, arr.length + 1);
                         arr[arr.length - 1] = temp;
                     }catch(NumberFormatException ex){
                         System.out.println("Incorrect format of some element. It will be skipped!");
+                    }
+                    catch(NonPositiveException ex){
+                        System.out.println(ex.getMessage());
                     }
                 }
             }finally{
