@@ -6,10 +6,16 @@ public class DoctorArr extends AbsDoctor {
     private String surn;
     private String spec;
 
-    DoctorArr(String surn, String spec){
+    public DoctorArr(String surn, String spec){
         arr = new AbsRecept[0];
         this.surn = surn;
         this.spec = spec;
+    }
+
+    public DoctorArr(){
+        arr = new AbsRecept[0];
+        this.surn = null;
+        this.spec = null;
     }
 
     public String getSurn(){return surn;}

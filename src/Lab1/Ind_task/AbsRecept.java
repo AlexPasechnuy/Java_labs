@@ -1,14 +1,16 @@
 package Lab1.Ind_task;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public abstract class AbsRecept implements Comparable<AbsRecept> {
 
-    public abstract int getDay();
+    public abstract Date getDay();
 
     public abstract int getShift();
 
     public abstract int getCount();
 
-    public abstract void setDay(int day);
+    public abstract void setDay(String day);
 
     public abstract void setShift(int shift);
 
@@ -16,7 +18,8 @@ public abstract class AbsRecept implements Comparable<AbsRecept> {
 
     @Override
     public String toString(){
-        return "Day: " + getDay() + "; Shift: " + getShift() + "; Count of visitors: " + getCount() + ";\n";
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        return format.format(getDay()) + " " + getShift() + " " + getCount();
     }
 
     @Override
@@ -32,6 +35,6 @@ public abstract class AbsRecept implements Comparable<AbsRecept> {
     }
 
     public int compareTo(AbsRecept p){
-        return getDay() - p.getDay();
+        return (int)(getDay().getTime() - p.getDay().getTime());
     }
 }

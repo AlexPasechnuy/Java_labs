@@ -1,5 +1,9 @@
 package Lab1.Ind_task;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public abstract class AbsDoctor {
 
     public abstract String getSurn();
@@ -22,10 +26,9 @@ public abstract class AbsDoctor {
 
     @Override
     public String toString() {
-        String str = "Surname: " + getSurn() + "; Specialization: " + getSpec() + ";\n"
-                + "Receptions:\n";
+        String str = getSurn() + " " + getSpec() + "\n";
         for(int i = 0; i < getLength(); i++){
-            str += getRec(i);
+            str += "- " + getRec(i).toString() + "\n";
         }
         return str;
     }
@@ -52,7 +55,13 @@ public abstract class AbsDoctor {
         addRec(rec);
     }
 
-    public AbsRecept[] searchByDay(int day) {
+    public AbsRecept[] searchByDay(String strDay) {
+        SimpleDateFormat ft = new SimpleDateFormat ("dd.MM.yyyy");
+        Date day = new Date();
+        try {
+            day = ft.parse(strDay);
+        }catch (ParseException e) {
+        }
         int counter = 0;
         for (int i = 0; i < getLength(); i++) {
             if (getRec(i).getDay() == day)

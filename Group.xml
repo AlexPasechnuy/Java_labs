@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Group>
+ <Students>
+ <Student Name= "Vasya Pupkin" Age = "18" BookNumb = "12514352"></Student>
+ <Student Name= "Pupa Vaskin" Age = "19" BookNumb = "12486214"> </Student>
+ <Student Name= "Lol Kek" Age = "20" BookNumb = "48621697"> </Student>
+ </Students>
+</Group>
