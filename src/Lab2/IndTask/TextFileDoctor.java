@@ -5,9 +5,8 @@ import Lab1.Ind_task.Reception;
 
 import java.io.*;
 import java.util.*;
-import java.text.*;
 
-public class TextFileDoctor extends DoctorArr {
+public class TextFileDoctor extends DoctorArr implements FileWorkInter{
     TextFileDoctor(String surn, String spec) {
         super(surn, spec);
     }
@@ -16,9 +15,9 @@ public class TextFileDoctor extends DoctorArr {
         super();
     }
 
-    void fileRead() {
+    public void fileRead(String filename) {
             try {
-                FileReader fr = new FileReader("indTaskSrc.txt");
+                FileReader fr = new FileReader(filename);
                 BufferedReader br = new BufferedReader(fr);
                 String s = br.readLine();
                 String name, spec;
@@ -42,9 +41,9 @@ public class TextFileDoctor extends DoctorArr {
             }
     }
 
-    void fileWrite() {
+    public void fileWrite(String filename) {
         try {
-            FileWriter fw = new FileWriter("indTaskDest.txt");
+            FileWriter fw = new FileWriter(filename);
             PrintWriter pw = new PrintWriter(fw);
             pw.println(this.toString());
             pw.close();
@@ -55,7 +54,7 @@ public class TextFileDoctor extends DoctorArr {
 
     public static void main(String[] args) {
         TextFileDoctor doc = new TextFileDoctor();
-        doc.fileRead();
-        doc.fileWrite();
+        doc.fileRead("indTaskSrc.txt");
+        doc.fileWrite("indTaskDest.txt");
     }
 }

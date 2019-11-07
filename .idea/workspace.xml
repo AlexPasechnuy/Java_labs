@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca9e7cae-1632-483a-985e-7a140dcba507" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Group.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GroupSer.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NewGroup.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/TextFileDoctor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/SAXandDOM/DOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/SAXandDOM/SAX.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/Serial/BinDeser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/Serial/BinSer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/Serial/XMLDeser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/Serial/XMLSer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/SortInt/NonPositiveException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/SAXandDOM/DOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/SAXandDOM/SAX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/Serial/XMLDeser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/Serial/XMLSer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab2/SortInt/NonPositiveException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/AbsDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/AbsDoctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/AbsRecept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/AbsRecept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/DoctorArr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/DoctorArr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/Reception.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/Reception.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/DoctorArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Ind_task/DoctorArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Ind_task/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +39,7 @@
               <entry file="file://$PROJECT_DIR$/indTaskSrc.txt">
                 <provider selected="true" editor-type-id="text-editor">
                   <state relative-caret-position="68">
-                    <caret line="4" column="17" lean-forward="true" selection-end-line="4" selection-end-column="17" />
+                    <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
                   </state>
                 </provider>
               </entry>
@@ -86,41 +59,43 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+            <state relative-caret-position="408">
+              <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#254#255#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/indTaskDest.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab1/Minimum/Interface/IntFunction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab1/Minimum/Interface/MyFunc_Int.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/FileWorkInter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -128,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -137,7 +112,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="476">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -149,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab2/Serial/Group.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="340">
               <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -165,14 +140,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-              <folding>
-                <element signature="e#563#564#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -180,7 +147,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/DoctorList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="170">
               <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -196,6 +163,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -213,7 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lab1/Minimum/MethRefUse.java" />
         <option value="$PROJECT_DIR$/src/Lab1/Minimum/FunctInterfaces/FunctInterFunc.java" />
         <option value="$PROJECT_DIR$/src/Lab1/Minimum/Interface/MyFunc_Int.java" />
         <option value="$PROJECT_DIR$/src/Lab1/Minimum/Interface/IntFunction.java" />
@@ -259,11 +226,12 @@
         <option value="$PROJECT_DIR$/src/Lab2/SortInt/Files/Input.TXT" />
         <option value="$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java" />
         <option value="$PROJECT_DIR$/src/Lab1/Ind_task/DoctorArr.java" />
-        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" />
         <option value="$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java" />
         <option value="$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java" />
         <option value="$PROJECT_DIR$/indTaskSrc.txt" />
         <option value="$PROJECT_DIR$/src/Lab1/Ind_task/Main.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/FileWorkInter.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" />
       </list>
     </option>
   </component>
@@ -281,8 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,19 +260,6 @@
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labs" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab1" type="462c0819:PsiDirectoryNode" />
-              <item name="Ind_task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
@@ -325,12 +278,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572986659805" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573146238340" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,11 +293,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab2\IndTask" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab2\WorkWithZip" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab2" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab1" />
-      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -357,7 +312,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TextFileDoctor">
     <configuration name="DOM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab2.SAXandDOM.DOM" />
       <module name="Labs" />
@@ -425,8 +380,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TextFileDoctor" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.SortIntsFromFile" />
         <item itemvalue="Application.DOM" />
         <item itemvalue="Application.SAX" />
@@ -466,17 +421,18 @@
       <workItem from="1572553220090" duration="1081000" />
       <workItem from="1572770208099" duration="5001000" />
       <workItem from="1572978994950" duration="7232000" />
+      <workItem from="1573145446222" duration="766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76101000" />
+    <option name="totallyTimeSpent" value="76867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1087" y="-541" width="1094" height="967" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24758221" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,7 +442,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32799014" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32799014" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49903288" visible="true" weight="0.270037" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49903288" visible="true" weight="0.270037" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39950678" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -511,15 +467,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lab1/GenLib/WrongUsage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/WorkWithZip/Group.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab2/WorkWithZip/Student.java" />
     <entry file="file://$PROJECT_DIR$/src/Lab1/GenLib/GenLib.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -686,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab1/Minimum/Interface/IntFunction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab1/Minimum/FunctInterFunc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -792,6 +732,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/SortInt/Files/DecrOutput.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/Serial/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/DoctorList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Group.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -805,22 +811,13 @@
     <entry file="file://$PROJECT_DIR$/GroupSer.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/SortInt/Files/DecrOutput.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/indTaskDest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/Serial/Group.java">
+    <entry file="file://$PROJECT_DIR$/indTaskSrc.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -828,86 +825,39 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/DoctorList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indTaskDest.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/indTaskSrc.txt">
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/FileWorkInter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="true" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Minimum/Interface/IntFunction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/Minimum/Interface/MyFunc_Int.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/indTaskDest.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+        <state relative-caret-position="408">
+          <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
