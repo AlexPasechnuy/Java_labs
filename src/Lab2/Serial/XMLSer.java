@@ -12,7 +12,7 @@ public class XMLSer {
         for (int i = 0; i < gr.getLength(); i++) {
             System.out.println(gr.getStud(i));
         }
-        try (XMLEncoder xmlEncoder = new XMLEncoder(new FileOutputStream("GroupSer.xml"))) {
+        try (XMLEncoder xmlEncoder = new XMLEncoder(new FileOutputStream("src\\Lab2\\Serial\\XMLSer.xml"))) {
             xmlEncoder.writeObject(gr);
             xmlEncoder.flush();
         }

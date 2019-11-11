@@ -9,7 +9,7 @@ public class BinSer {
         gr.add(new Student("Danika Mori", 18, 4618465));
         gr.add(new Student("Rocco Siffredi", 18, 5649189));
         try (ObjectOutputStream out = new ObjectOutputStream(
-                new FileOutputStream("temp.dat"))) {
+                new FileOutputStream("src\\Lab2\\Serial\\binSer.dat"))) {
             out.writeObject(gr);
         } catch (IOException e) {
             e.printStackTrace();

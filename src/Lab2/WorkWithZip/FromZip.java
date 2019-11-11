@@ -7,7 +7,7 @@ import java.util.zip.*;
 
 public class FromZip {
     public static void main(String[] args) {
-        try (ZipInputStream zIn = new ZipInputStream(new FileInputStream("Group.zip"));
+        try (ZipInputStream zIn = new ZipInputStream(new FileInputStream("src\\Lab2\\WorkWithZip\\Group.zip"));
              DataInputStream in = new DataInputStream(zIn)) {
             ZipEntry entry;
             while ((entry = zIn.getNextEntry()) != null) {

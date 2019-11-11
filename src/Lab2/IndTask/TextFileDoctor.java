@@ -54,7 +54,7 @@ public class TextFileDoctor extends DoctorArr implements FileWorkInter{
 
     public static void main(String[] args) {
         TextFileDoctor doc = new TextFileDoctor();
-        doc.fileRead("indTaskSrc.txt");
-        doc.fileWrite("indTaskDest.txt");
+        doc.fileRead("src\\Lab2\\IndTask\\TextFiles\\indTaskSrc.txt");
+        doc.fileWrite("src\\Lab2\\IndTask\\TextFiles\\indTaskDest.txt");
     }
 }

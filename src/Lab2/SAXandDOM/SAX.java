@@ -58,7 +58,7 @@ public class SAX extends DefaultHandler{
             e.printStackTrace();
         }
         if (parser != null) {
-            InputSource input = new InputSource("Group.xml");
+            InputSource input = new InputSource("src\\Lab2\\SAXandDOM\\Group.xml");
             try {
                 parser.parse(input, new SAX());
             }

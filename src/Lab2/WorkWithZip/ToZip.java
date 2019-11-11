@@ -14,7 +14,7 @@ public class ToZip {
         for(int i = 0; i < gr.getLength(); i++){
             System.out.println(gr.getStud(i));
         }
-        try (ZipOutputStream zOut = new ZipOutputStream(new FileOutputStream("Group.zip"));
+        try (ZipOutputStream zOut = new ZipOutputStream(new FileOutputStream("src\\Lab2\\WorkWithZip\\Group.zip"));
              DataOutputStream out = new DataOutputStream(zOut)) {
             for (Student stud : gr.getStuds()) {
                 ZipEntry zipEntry = new ZipEntry(stud.getName());

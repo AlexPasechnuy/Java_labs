@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_231" class="java.beans.XMLDecoder">
+ <object class="Lab2.Serial.Group">
+  <void property="studs">
+   <array class="Lab2.Serial.Student" length="3">
+    <void index="0">
+     <object class="Lab2.Serial.Student">
+      <void property="age">
+       <int>18</int>
+      </void>
+      <void property="bookNumb">
+       <int>1342567</int>
+      </void>
+      <void property="name">
+       <string>Johnny Sins</string>
+      </void>
+     </object>
+    </void>
+    <void index="1">
+     <object class="Lab2.Serial.Student">
+      <void property="age">
+       <int>18</int>
+      </void>
+      <void property="bookNumb">
+       <int>4618465</int>
+      </void>
+      <void property="name">
+       <string>Danika Mori</string>
+      </void>
+     </object>
+    </void>
+    <void index="2">
+     <object class="Lab2.Serial.Student">
+      <void property="age">
+       <int>18</int>
+      </void>
+      <void property="bookNumb">
+       <int>5649189</int>
+      </void>
+      <void property="name">
+       <string>Rocco Siffredi</string>
+      </void>
+     </object>
+    </void>
+   </array>
+  </void>
+ </object>
+</java>

@@ -12,7 +12,7 @@ public class DOM {
         try {
             Document doc;
             DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            doc = db.parse(new File("Group.xml"));
+            doc = db.parse(new File("src\\Lab2\\SAXandDOM\\Group.xml"));
             Node rootNode = doc.getDocumentElement();
             mainLoop:
             for (int i = 0; i < rootNode.getChildNodes().getLength(); i++) {
@@ -33,7 +33,7 @@ public class DOM {
             }
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             transformer.transform(new DOMSource(doc),
-                    new StreamResult(new FileOutputStream(new File("NewGroup.xml"))));
+                    new StreamResult(new FileOutputStream(new File("src\\Lab2\\SAXandDOM\\NewGroup.xml"))));
         }
         catch (Exception  e) {
             e.printStackTrace();
