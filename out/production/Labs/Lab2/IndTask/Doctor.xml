@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Doctor Surname = "Petrov" Speciality = "Therapist">
+    <Reception Date = "21.01.2010" Shift = "1" Count = "15"/>
+    <Reception Date = "15.03.2010" Shift = "3" Count = "24"/>
+    <Reception Date = "5.07.2010" Shift = "0" Count = "9"/>
+</Doctor>
