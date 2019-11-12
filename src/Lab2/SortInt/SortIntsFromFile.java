@@ -2,6 +2,7 @@ package Lab2.SortInt;
 
 import java.io.*;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.InputMismatchException;
 import java.util.StringTokenizer;
 
@@ -50,7 +51,7 @@ public class SortIntsFromFile {
     }
 
     void sortByDecr(){
-        java.util.Arrays.sort(arr, new DecrComp());
+        java.util.Arrays.sort(arr, new DecrDigitsSumComp());
     }
 
     void sortByIncDigSum(){
@@ -62,7 +63,7 @@ public class SortIntsFromFile {
             SortIntsFromFile sort = new SortIntsFromFile();
             sort.readFromFile("src/Lab2/SortInt/Files/Input.txt");
             sort.sortByDecr();
-            sort.writeToFile("src/Lab2/SortInt/Files/DecrOutput.txt");
+            sort.writeToFile("src/Lab2/SortInt/Files/DecrDigSumOutput.txt");
             sort.sortByIncDigSum();
             sort.writeToFile("src/Lab2/SortInt/Files/IncrDigSumOutput.txt");
         }

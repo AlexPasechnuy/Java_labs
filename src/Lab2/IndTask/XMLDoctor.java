@@ -43,6 +43,7 @@ public class XMLDoctor extends DoctorArr implements FileWorkInter {
     public static void main(String[] args) {
         XMLDoctor xmldoc = new XMLDoctor();
         xmldoc.fileRead("src\\Lab2\\IndTask\\Doctor.xml");
+        System.out.println(xmldoc.toString());
         xmldoc.doc.setSurname("Pupkin");
         xmldoc.doc.setSpeciality("Dentist");
         xmldoc.doc.getReception().get(0).setDate("01.01.2000");
