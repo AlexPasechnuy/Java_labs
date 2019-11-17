@@ -20,7 +20,6 @@ public class TextFileDoctor extends DoctorArr implements FileWorkInter{
                 FileReader fr = new FileReader(filename);
                 BufferedReader br = new BufferedReader(fr);
                 String s = br.readLine();
-                String name, spec;
                 try {
                     StringTokenizer st = new StringTokenizer(s);
                     setSurn(st.nextToken());

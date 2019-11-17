@@ -20,6 +20,6 @@ public class DirWork {
     }
 
     public static void main(String[] args) {
-        showFiles("D:\\Alex\\Photos", 0);
+        showFiles("D:\\Панель задач", 0);
     }
 }
