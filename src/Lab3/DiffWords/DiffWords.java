@@ -12,6 +12,9 @@ public class DiffWords {
         stringToSet(str);
     }
 
+    DiffWords(){
+    }
+
     public void read(){
         Scanner sc = new Scanner(System.in);
         String str = sc.nextLine();
@@ -30,7 +33,7 @@ public class DiffWords {
     }
 
     public static void main(String[] args) {
-        DiffWords wrds = new DiffWords("hello my dear friend");
+        DiffWords wrds = new DiffWords();
         System.out.println(wrds.getSet());
     }
 }

@@ -1,0 +1,6 @@
+Кот Cat
+Пёс Dog
+Олень Deer
+Еда Food
+Вода Water
+Яблоко Apple
