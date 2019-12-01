@@ -1,6 +1,7 @@
 Кот Cat
-Пёс Dog
-Олень Deer
-Еда Food
 Вода Water
+Олень Deer
 Яблоко Apple
+Яся Yasya
+Еда Food
+Пёс Dog

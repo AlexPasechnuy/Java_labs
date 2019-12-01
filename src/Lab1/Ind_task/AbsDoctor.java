@@ -61,6 +61,7 @@ public abstract class AbsDoctor {
         try {
             day = ft.parse(strDay);
         }catch (ParseException e) {
+            e.printStackTrace();
         }
         int counter = 0;
         for (int i = 0; i < getLength(); i++) {
