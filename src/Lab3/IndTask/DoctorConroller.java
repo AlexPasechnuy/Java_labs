@@ -74,7 +74,22 @@ public class DoctorConroller implements Initializable {
     }
 
     private void docTableInit() {
-
+        //initializing rows
+        ObservableList<TableRow> rows = FXCollections.observableArrayList();
+        for (DoctorArr dct : doctors) {
+            rows.add(new TableRow(dct.getSurn(), dct.getSpec(), dct.getRec(0).getDay(),
+                    dct.getRec(0).getShift(), dct.getRec(0).getCount()));
+            for (int i = 1; i < dct.getLength(); i++) {
+                rows.add(new TableRow("", "", dct.getRec(i).getDay(),
+                        dct.getRec(i).getShift(), dct.getRec(i).getCount()));
+            }
+        }
+        docTable.setItems(rows);
+        surnCol.setCellValueFactory(new PropertyValueFactory<>("surn"));
+        specCol.setCellValueFactory(new PropertyValueFactory<>("spec"));
+        dateCol.setCellValueFactory(new PropertyValueFactory<>("date"));
+        shiftCol.setCellValueFactory(new PropertyValueFactory<>("shift"));
+        countCol.setCellValueFactory(new PropertyValueFactory<>("count"));
     }
 
     private void readFromFile(String path){
