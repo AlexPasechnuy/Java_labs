@@ -16,12 +16,15 @@
           <menus>
             <Menu mnemonicParsing="false" text="File">
               <items>
-                <MenuItem mnemonicParsing="false" text="Close" />
+                <MenuItem mnemonicParsing="false" onAction="#doNew" text="New" />
+                <MenuItem mnemonicParsing="false" onAction="#doOpen" text="Open" />
+                <MenuItem mnemonicParsing="false" text="Save as" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="Edit">
               <items>
-                <MenuItem mnemonicParsing="false" text="Delete" />
+                <MenuItem mnemonicParsing="false" text="Sort by date" />
+                <MenuItem mnemonicParsing="false" text="Sort by count of visitors" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="Help">
@@ -39,7 +42,7 @@
           </font>
         </Button>
         <TextArea fx:id="searchRes" layoutX="30.0" layoutY="234.0" prefHeight="326.0" prefWidth="315.0" promptText="Search results" wrapText="true" />
-        <TableView fx:id="docTable" layoutX="381.0" layoutY="33.0" prefHeight="621.0" prefWidth="474.0">
+        <TableView fx:id="docTable" layoutX="381.0" layoutY="33.0" prefHeight="647.9609375" prefWidth="474.0">
           <columns>
             <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="161.0" text="Surname" fx:id="surnCol" />
             <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="154.0" text="Speciality" fx:id="specCol" />
@@ -48,14 +51,12 @@
             <TableColumn maxWidth="5000.0" minWidth="10.0" prefWidth="42.0" text="Count" fx:id="countCol" />
           </columns>
         </TableView>
-        <Button fx:id="sortByDate" layoutX="393.0" layoutY="672.0" mnemonicParsing="false" prefHeight="32.9609375" prefWidth="156.0" text="Sort by date" />
-        <Button fx:id="sortByCount" layoutX="680.0" layoutY="672.0" mnemonicParsing="false" prefHeight="32.9609375" prefWidth="156.0" text="Sort by count of visitors" />
         <TextField fx:id="surnAdd" layoutX="30.0" layoutY="588.0" prefWidth="200.0" promptText="Surname" text="" />
-        <TextField fx:id="specAdd" layoutX="30.0" layoutY="623.0" prefWidth="200.0" promptText="Speciality" />
+        <TextField fx:id="specAdd" layoutX="30.0" layoutY="623.0" prefWidth="200.0" promptText="Specialization" />
         <TextField fx:id="dateAdd" layoutX="30.0" layoutY="659.0" prefWidth="79.0" promptText="Date" />
         <TextField fx:id="shiftAdd" layoutX="121.0" layoutY="659.0" prefWidth="49.0" promptText="Shift" />
         <TextField fx:id="countAdd" layoutX="186.0" layoutY="659.0" prefWidth="49.0" promptText="Count" />
-        <Button fx:id="addBtn" font="$x1" layoutX="272.0" layoutY="618.0" mnemonicParsing="false" prefHeight="31.9609375" prefWidth="58.0" text="Add" />
+        <Button fx:id="addBtn" font="$x1" layoutX="272.0" layoutY="618.0" mnemonicParsing="false" onAction="#doAdd" prefHeight="31.9609375" prefWidth="58.0" text="Add" />
         <Separator layoutX="30.0" layoutY="575.0" prefWidth="315.0" />
       </children>
     </Pane>

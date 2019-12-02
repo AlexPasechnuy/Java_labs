@@ -4,12 +4,17 @@ import Lab1.Ind_task.AbsDoctor;
 import Lab1.Ind_task.AbsRecept;
 import Lab1.Ind_task.DoctorArr;
 import Lab1.Ind_task.Reception;
+import Lab2.IndTask.JAXBSchema.Doctor;
+import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
+import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.stage.FileChooser;
 import javafx.util.Callback;
 import org.w3c.dom.Document;
@@ -20,6 +25,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.*;
 import java.net.URL;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class DoctorConroller implements Initializable {
@@ -29,14 +35,12 @@ public class DoctorConroller implements Initializable {
     public TextField dateSearch;
     public Button searchBtn;
     public TextArea searchRes;
-    public TableView docTable;
-    public TableColumn<AbsDoctor, String> surnCol;
-    public TableColumn<AbsDoctor, String> specCol;
-    public TableColumn<AbsRecept, String> dateCol;
-    public TableColumn<AbsRecept, Integer> shiftCol;
-    public TableColumn<AbsRecept, Integer> countCol;
-    public Button sortByDate;
-    public Button sortByCount;
+    public TableView<TableRow> docTable;
+    public TableColumn<TableRow, String> surnCol;
+    public TableColumn<TableRow, String> specCol;
+    public TableColumn<TableRow, String> dateCol;
+    public TableColumn<TableRow, Integer> shiftCol;
+    public TableColumn<TableRow, Integer> countCol;
     public TextField surnAdd;
     public TextField specAdd;
     public TextField dateAdd;
@@ -44,69 +48,55 @@ public class DoctorConroller implements Initializable {
     public TextField countAdd;
     public Button addBtn;
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
-        //docTable.setPlaceholder(new Label(""));
+    public class TableRow{
+
+        SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
+        SimpleStringProperty surn,spec, date;
+        SimpleIntegerProperty shift,count;
+        public TableRow(String surn,String spec,Date date,int shift,int count){
+            this.surn = new SimpleStringProperty(surn);
+            this.spec = new SimpleStringProperty(spec);
+            this.date = new SimpleStringProperty(format.format(date));
+            this.shift = new SimpleIntegerProperty(shift);
+            this.count = new SimpleIntegerProperty(count);
+        }
+
+        public String getSurn(){return surn.get();}
+        public String getSpec(){return spec.get();}
+        public String getDate(){return date.get();}
+        public int getShift(){return shift.get();}
+        public int getCount(){return count.get();}
     }
 
-    private void docTableInit(){
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        docTableInit();
+    }
+
+    private void docTableInit() {
 
     }
 
     private void readFromFile(String path){
-        try {
-            Document doc;
-            DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
-            doc = db.parse(new File(path));
-            Node rootNode = doc.getDocumentElement();
-            mainLoop:
-            for (int i = 0; i < rootNode.getChildNodes().getLength(); i++) {
-                Node doctorNode = rootNode.getChildNodes().item(i);
-                if (doctorNode.getNodeName().equals("Doctor")) {
-                    DoctorArr doctor = new DoctorArr(doctorNode.getAttributes().getNamedItem("Surname").toString(),
-                            doctorNode.getAttributes().getNamedItem("Speciality").toString());
-                    for (int j = 0; j < doctorNode.getChildNodes().getLength(); j++) {
-                        Node reception = doctorNode.getChildNodes().item(j);
-                        if (reception.getNodeName().equals("Reception")) {
-                            // Знаходимо атрибут за іменем:
-                            System.out.println("Date " + reception.getAttributes().getNamedItem("Date"));
-                            System.out.println("Shift " + reception.getAttributes().getNamedItem("Shift"));
-                            System.out.println("Count " + reception.getAttributes().getNamedItem("Count"));
-                            doctor.addRec(new Reception(reception.getAttributes().getNamedItem("Date").toString(),
-                                    Integer.parseInt(reception.getAttributes().getNamedItem("Shift").toString()),
-                                    Integer.parseInt(reception.getAttributes().getNamedItem("Count").toString())));
-                        }
-                    }
-                    doctors.add(doctor);
-                }
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+
     }
 
     @FXML
-    private void open(javafx.event.ActionEvent event) {
-        FileChooser fileChooser = getFileChooser("Open XML file");
-        File file;
-        if ((file = fileChooser.showOpenDialog(null)) != null) {
-            try {
-                readFromFile(file.getCanonicalPath());
-                docTableInit();
-            } catch (IOException e) {
-                showError("No such file");
-            }
-        }
+    private void doNew(javafx.event.ActionEvent event) {
+        doctors = new ArrayList<>();
+        docTableInit();
     }
 
-    public static FileChooser getFileChooser(String title) {
-        FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("."));
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml"));
-        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("All files (*.*)", "*.*"));
-        fileChooser.setTitle(title);
-        return fileChooser;
+    @FXML
+    private void doOpen(javafx.event.ActionEvent event) {
+
     }
+
+    @FXML
+    private void doAdd(javafx.event.ActionEvent event){
+
+    }
+
 
     private static void showMessage(String message) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -122,7 +112,12 @@ public class DoctorConroller implements Initializable {
         alert.showAndWait();
     }
 
-    private void add(javafx.event.ActionEvent event){
-
+    @FXML
+    private void about(javafx.event.ActionEvent event) {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("About program...");
+        alert.setHeaderText("Application shows information about doctors and their receptions");
+        alert.setContentText("Version 1.0");
+        alert.showAndWait();
     }
 }

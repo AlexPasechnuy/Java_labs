@@ -42,7 +42,7 @@ public abstract class AbsDoctor {
             return false;
         }
         AbsDoctor h = (AbsDoctor) obj;
-        return getSurn() == h.getSurn() && getSpec() == h.getSpec();
+        return (getSurn() == h.getSurn()) && (getSpec() == h.getSpec());
     }
 
     public void checkAndAddRec(AbsRecept rec) {

@@ -12,7 +12,7 @@ public class Main {
         arrdoc.checkAndAddRec(new Reception("28.11.2019", 4, 5));
         System.out.println(arrdoc);
 
-        System.out.println("Doctors are equal:" + arrdoc.equals(new DoctorArr("Johnson", "Surgeon")) + '\n');
+        System.out.println("Doctors are equal:" + arrdoc.equals(new DoctorArr("Johnson", "Therapist")) + '\n');
 
         arrdoc.sortByDay();
         System.out.println("Sorted by day:\n" + arrdoc);
@@ -29,7 +29,7 @@ public class Main {
         listdoc.checkAndAddRec(new Reception("28.11.2019", 4, 5));
         System.out.println(listdoc);
 
-        System.out.println("Doctors are equal:" + listdoc.equals(new DoctorList("Johnson", "Surgeon")) + '\n');
+        System.out.println("Doctors are equal:" + listdoc.equals(new DoctorList("Johnson", "Therapist")) + '\n');
 
         listdoc.sortByDay();
         System.out.println("Sorted by day:\n" + listdoc);
