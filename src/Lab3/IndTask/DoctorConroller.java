@@ -93,7 +93,32 @@ public class DoctorConroller implements Initializable {
     }
 
     private void readFromFile(String path){
-
+        doctors = new ArrayList<>();
+        try {
+            Document doc;
+            DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            doc = db.parse(new File(path));
+            Node rootNode = doc.getDocumentElement();
+            mainLoop:
+            for (int i = 0; i < rootNode.getChildNodes().getLength(); i++) {
+                Node doctorNode = rootNode.getChildNodes().item(i);
+                if (doctorNode.getNodeName().equals("Doctor")) {
+                    DoctorArr doctor = new DoctorArr(doctorNode.getAttributes().getNamedItem("Surname").getNodeValue(),
+                            doctorNode.getAttributes().getNamedItem("Speciality").getNodeValue());
+                    for (int j = 0; j < doctorNode.getChildNodes().getLength(); j++) {
+                        Node reception = doctorNode.getChildNodes().item(j);
+                        if (reception.getNodeName().equals("Reception")) {
+                            doctor.addRec(new Reception(reception.getAttributes().getNamedItem("Date").getNodeValue(),
+                                    Integer.parseInt(reception.getAttributes().getNamedItem("Shift").getNodeValue()),
+                                    Integer.parseInt(reception.getAttributes().getNamedItem("Count").getNodeValue())));
+                        }
+                    }
+                    doctors.add(doctor);
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     @FXML
@@ -125,6 +150,15 @@ public class DoctorConroller implements Initializable {
         alert.setTitle("Error");
         alert.setHeaderText(message);
         alert.showAndWait();
+    }
+
+    public static FileChooser getFileChooser(String title) {
+        FileChooser fileChooser = new FileChooser();
+        fileChooser.setInitialDirectory(new File("."));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("XML files (*.xml)", "*.xml"));
+        fileChooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("All files (*.*)", "*.*"));
+        fileChooser.setTitle(title);
+        return fileChooser;
     }
 
     @FXML
