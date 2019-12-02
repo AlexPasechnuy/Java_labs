@@ -129,7 +129,18 @@ public class DoctorConroller implements Initializable {
 
     @FXML
     private void doOpen(javafx.event.ActionEvent event) {
-
+        FileChooser fileChooser = getFileChooser("Open XML file");
+        File file;
+        if ((file = fileChooser.showOpenDialog(null)) != null) {
+            try {
+                readFromFile(file.getCanonicalPath());
+                docTableInit();
+                docTable.setItems(null);
+                docTableInit();
+            } catch (IOException e) {
+                showError("No such file");
+            }
+        }
     }
 
     @FXML
