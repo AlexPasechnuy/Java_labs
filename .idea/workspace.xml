@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="130" column="57" selection-start-line="130" selection-start-column="57" selection-end-line="130" selection-end-column="57" />
+            <state relative-caret-position="1071">
+              <caret line="152" column="37" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
               <folding>
                 <element signature="e#1502#1503#0" expanded="true" />
                 <element signature="e#1532#1533#0" expanded="true" />
@@ -213,7 +213,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575321289547" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575321332949" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -381,12 +381,12 @@
       <workItem from="1575112713758" duration="2904000" />
       <workItem from="1575197462860" duration="5178000" />
       <workItem from="1575219262747" duration="4313000" />
-      <workItem from="1575289163193" duration="20238000" />
+      <workItem from="1575289163193" duration="20281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169622000" />
+    <option name="totallyTimeSpent" value="169665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-549" width="1096" height="1936" extended-state="6" />
@@ -809,8 +809,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="130" column="57" selection-start-line="130" selection-start-column="57" selection-end-line="130" selection-end-column="57" />
+        <state relative-caret-position="1071">
+          <caret line="152" column="37" selection-start-line="152" selection-start-column="37" selection-end-line="152" selection-end-column="37" />
           <folding>
             <element signature="e#1502#1503#0" expanded="true" />
             <element signature="e#1532#1533#0" expanded="true" />

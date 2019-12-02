@@ -145,7 +145,24 @@ public class DoctorConroller implements Initializable {
 
     @FXML
     private void doAdd(javafx.event.ActionEvent event){
-
+        if(surnAdd.getText().isEmpty() || specAdd.getText().isEmpty() || dateAdd.getText().isEmpty()
+                || shiftAdd.getText().isEmpty()|| countAdd.getText().isEmpty()){
+            throw new NullPointerException();
+        }
+        DoctorArr doc = new DoctorArr(surnAdd.getText(), specAdd.getText());
+        for(DoctorArr dct : doctors){
+            if(((doc.getSurn().indexOf(dct.getSurn()))==0 && doc.getSurn().length() == dct.getSurn().length())
+                    &&( (doc.getSpec().indexOf(dct.getSpec()))==0&& doc.getSpec().length() == dct.getSpec().length())){
+                dct.addRec(new Reception(dateAdd.getText(), Integer.parseInt(shiftAdd.getText())
+                        , Integer.parseInt(countAdd.getText())));
+                docTableInit();
+                return;
+            }
+        }
+        doc.addRec(new Reception(dateAdd.getText(), Integer.parseInt(shiftAdd.getText())
+                , Integer.parseInt(countAdd.getText())));
+        doctors.add(doc);
+        docTableInit();
     }
 
 
