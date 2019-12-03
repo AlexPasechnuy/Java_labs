@@ -184,7 +184,21 @@ public class DoctorConroller implements Initializable {
         searchRes.setText(result);
     }
 
+    @FXML
+    private void doDateSort(javafx.event.ActionEvent event) {
+        for(DoctorArr doc : doctors){
+            doc.sortByDay();
+        }
+        docTableInit();
+    }
 
+    @FXML
+    private void doCountSort(javafx.event.ActionEvent event) {
+        for(DoctorArr doc : doctors){
+            doc.sortByVisCount();
+        }
+        docTableInit();
+    }
 
     private static void showMessage(String message) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);

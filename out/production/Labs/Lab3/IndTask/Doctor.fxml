@@ -23,8 +23,8 @@
             </Menu>
             <Menu mnemonicParsing="false" text="Edit">
               <items>
-                <MenuItem mnemonicParsing="false" text="Sort by date" />
-                <MenuItem mnemonicParsing="false"  text="Sort by count of visitors" />
+                <MenuItem mnemonicParsing="false" onAction="#doDateSort" text="Sort by date" />
+                <MenuItem mnemonicParsing="false" onAction="#doCountSort" text="Sort by count of visitors" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="Help">
