@@ -57,21 +57,17 @@ public abstract class AbsDoctor {
 
     public AbsRecept[] searchByDay(String strDay) {
         SimpleDateFormat ft = new SimpleDateFormat ("dd.MM.yyyy");
-        Date day = new Date();
-        try {
-            day = ft.parse(strDay);
-        }catch (ParseException e) {
-            e.printStackTrace();
-        }
         int counter = 0;
         for (int i = 0; i < getLength(); i++) {
-            if (getRec(i).getDay() == day)
+            String strArrDay = ft.format(getRec(i).getDay());
+            if (strArrDay.indexOf(strDay) == 0 && strArrDay.length() == strDay.length())
                 counter++;
         }
         AbsRecept[] arr = new AbsRecept[counter];
+        counter = 0;
         for (int i = 0; i < getLength(); i++) {
-            counter = 0;
-            if (getRec(i).getDay() == day) {
+            String strArrDay = ft.format(getRec(i).getDay());
+            if (strArrDay.indexOf(strDay) == 0 && strArrDay.length() == strDay.length()) {
                 arr[counter] = getRec(i);
                 counter++;
             }

@@ -165,6 +165,26 @@ public class DoctorConroller implements Initializable {
         docTableInit();
     }
 
+    @FXML
+    private void doSearch(javafx.event.ActionEvent event) {
+        String result = "";
+        if(surnSearch.getText().isEmpty() || dateSearch.getText().isEmpty()){
+            throw new NullPointerException();
+        }
+        for(DoctorArr doc : doctors){
+            if(doc.getSurn().indexOf(surnSearch.getText().toString()) == 0 && doc.getSurn().length() == surnSearch.getText().length()){
+                result +=doc.getSurn() + ", " + doc.getSpec() + ":\n";
+                AbsRecept[] arr =  doc.searchByDay(dateSearch.getText());
+                for(AbsRecept rec : arr){
+                    System.out.println(rec.toString());
+                    result += "     " + rec.toString() + '\n';
+                }
+            }
+        }
+        searchRes.setText(result);
+    }
+
+
 
     private static void showMessage(String message) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -190,7 +210,7 @@ public class DoctorConroller implements Initializable {
     }
 
     @FXML
-    private void about(javafx.event.ActionEvent event) {
+    private void doAbout(javafx.event.ActionEvent event) {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("About program...");
         alert.setHeaderText("Application shows information about doctors and their receptions");

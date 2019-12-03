@@ -7,6 +7,7 @@ public class Main {
 
         DoctorArr arrdoc = new DoctorArr("Johnson", "Therapist");
         arrdoc.checkAndAddRec(new Reception("22.11.2019", 4, 5));
+        arrdoc.checkAndAddRec(new Reception("22.11.2019", 1, 29));
         arrdoc.checkAndAddRec(new Reception("25.11.2019", 8, 4));
         arrdoc.checkAndAddRec(new Reception("27.11.2019", 2, 3));
         arrdoc.checkAndAddRec(new Reception("28.11.2019", 4, 5));
@@ -19,6 +20,13 @@ public class Main {
 
         arrdoc.sortByVisCount();
         System.out.println("Sorted by count of visitors:\n" + arrdoc);
+
+
+        AbsRecept[] rec = arrdoc.searchByDay("22.11.2019");
+        System.out.println(rec.length);
+        for(int i = 0; i < rec.length; i++){
+            System.out.println(rec[i].toString());
+        }
 
         //using list
         System.out.println("\n\nUsing list \n");

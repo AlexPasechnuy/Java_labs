@@ -24,19 +24,19 @@
             <Menu mnemonicParsing="false" text="Edit">
               <items>
                 <MenuItem mnemonicParsing="false" text="Sort by date" />
-                <MenuItem mnemonicParsing="false" text="Sort by count of visitors" />
+                <MenuItem mnemonicParsing="false"  text="Sort by count of visitors" />
               </items>
             </Menu>
             <Menu mnemonicParsing="false" text="Help">
               <items>
-                <MenuItem mnemonicParsing="false" text="About" />
+                <MenuItem mnemonicParsing="false" onAction="#doAbout" text="About" />
               </items>
             </Menu>
           </menus>
         </MenuBar>
         <TextField fx:id="surnSearch" layoutX="30.0" layoutY="59.0" prefHeight="32.9609375" prefWidth="228.0" promptText="Surname" />
         <TextField fx:id="dateSearch" layoutX="30.0" layoutY="122.0" prefHeight="32.9609375" prefWidth="228.0" promptText="Date" />
-        <Button fx:id="searchBtn" layoutX="130.0" layoutY="170.0" mnemonicParsing="false" prefHeight="32.9609375" prefWidth="100.0" text="Search">
+        <Button fx:id="searchBtn" layoutX="130.0" layoutY="170.0" mnemonicParsing="false" onAction="#doSearch" prefHeight="32.9609375" prefWidth="100.0" text="Search">
           <font>
             <Font size="16.0" fx:id="x1" />
           </font>
