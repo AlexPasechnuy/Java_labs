@@ -18,11 +18,16 @@ import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.stage.FileChooser;
 import javafx.util.Callback;
 import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
 import javax.xml.bind.JAXBException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 import java.io.*;
 import java.net.URL;
 import java.text.SimpleDateFormat;
@@ -144,6 +149,20 @@ public class DoctorConroller implements Initializable {
     }
 
     @FXML
+    private void doSave(javafx.event.ActionEvent event) {
+        FileChooser fileChooser = getFileChooser("Save XML file");
+        File file;
+        if ((file = fileChooser.showSaveDialog(null)) != null) {
+            try {
+                writeToFile(file.getCanonicalPath());
+                showMessage("Results are saved");
+            } catch (Exception e) {
+                showError("Error write to file");
+            }
+        }
+    }
+
+    @FXML
     private void doAdd(javafx.event.ActionEvent event){
         if(surnAdd.getText().isEmpty() || specAdd.getText().isEmpty() || dateAdd.getText().isEmpty()
                 || shiftAdd.getText().isEmpty()|| countAdd.getText().isEmpty()){
@@ -230,5 +249,40 @@ public class DoctorConroller implements Initializable {
         alert.setHeaderText("Application shows information about doctors and their receptions");
         alert.setContentText("Version 1.0");
         alert.showAndWait();
+    }
+
+    private void writeToFile(String path){
+        try {
+            SimpleDateFormat ft = new SimpleDateFormat ("dd.MM.yyyy");
+            DocumentBuilderFactory dbf;
+            DocumentBuilder db;
+            Document doc;
+
+            dbf = DocumentBuilderFactory.newInstance();
+            db = dbf.newDocumentBuilder();
+            doc = db.newDocument();
+
+            Element dcts = doc.createElement("Doctors");
+            for(DoctorArr dct: doctors){
+                Element xmlDoc = doc.createElement("Doctor");
+                xmlDoc.setAttribute("Surname", dct.getSurn());
+                xmlDoc.setAttribute("Speciality", dct.getSpec());
+                for(int i = 0; i < dct.getLength(); i++){
+                    Element rec = doc.createElement("Reception");
+                    rec.setAttribute("Date",ft.format(dct.getRec(i).getDay()));
+                    rec.setAttribute("Shift",Integer.toString(dct.getRec(i).getShift()));
+                    rec.setAttribute("Count",Integer.toString(dct.getRec(i).getCount()));
+                    xmlDoc.appendChild(rec);
+                }
+                dcts.appendChild(xmlDoc);
+            }
+            doc.appendChild(dcts);
+
+            Transformer transformer = TransformerFactory.newInstance().newTransformer();
+            transformer.transform(new DOMSource(doc),
+                    new StreamResult(new FileOutputStream(new File(path))));
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
     }
 }

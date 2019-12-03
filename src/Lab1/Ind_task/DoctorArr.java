@@ -1,6 +1,9 @@
 package Lab1.Ind_task;
 
-public class DoctorArr extends AbsDoctor {
+import java.io.Serializable;
+
+public class DoctorArr extends AbsDoctor implements Serializable {
+    private static final long serialVersionUID = -8023307716074778326L;
     private AbsRecept[] arr;
 
     private String surn;
