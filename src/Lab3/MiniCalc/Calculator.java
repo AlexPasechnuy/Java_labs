@@ -4,15 +4,13 @@ import javafx.application.Application;
 import javafx.event.Event;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
+import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 import javafx.scene.layout.FlowPane;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 public class Calculator extends Application {
-    private Button plus, minus, divide, multiply;
+    private RadioButton plus, minus, divide, multiply;
     private TextField field1, field2, field3;
 
     @Override
@@ -23,14 +21,19 @@ public class Calculator extends Application {
         rootNode.setAlignment(Pos.CENTER);
         Scene scene = new Scene(rootNode, 200, 200); // розміри вікна
         stage.setScene(scene);
-        plus = new Button("+");
-        minus = new Button("-");
-        divide = new Button("/");
-        multiply = new Button("*");
+        plus = new RadioButton("+");
+        minus = new RadioButton("-");
+        divide = new RadioButton("/");
+        multiply = new RadioButton("*");
         plus.setOnAction(this::plusClick);
         minus.setOnAction(this::minusClick);
         divide.setOnAction(this::divideClick);
         multiply.setOnAction(this::multiplyClick);
+        ToggleGroup btnGrp = new ToggleGroup();
+        plus.setToggleGroup(btnGrp);
+        minus.setToggleGroup(btnGrp);
+        divide.setToggleGroup(btnGrp);
+        multiply.setToggleGroup(btnGrp);
         field1 = new TextField();
         field2 = new TextField();
         field3 = new TextField();

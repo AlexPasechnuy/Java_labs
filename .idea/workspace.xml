@@ -328,7 +328,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575480228174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575480383820" />
     <property name="last_opened_file_path" value="U:/Labs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -362,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoctorFX">
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.MiniCalc.Calculator" />
       <module name="Labs" />
@@ -430,10 +430,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.DoctorFX" />
         <item itemvalue="Application.DiffWords" />
         <item itemvalue="Application.DictFX" />
-        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.UserData" />
       </list>
     </recent_temporary>
