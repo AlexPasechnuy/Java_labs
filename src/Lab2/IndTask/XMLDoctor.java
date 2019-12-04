@@ -1,5 +1,6 @@
 package Lab2.IndTask;
 
+import Lab1.GenLib.WrongUsage;
 import Lab1.Ind_task.DoctorArr;
 import Lab1.Ind_task.Reception;
 import Lab2.IndTask.JAXBSchema.Doctor;
@@ -20,9 +21,13 @@ public class XMLDoctor extends DoctorArr implements FileWorkInter {
             setSpec(doc.getSpeciality());
             for(int i = 0; i < doc.getReception().size(); i++){
                 Doctor.Reception jaxbRec = doc.getReception().get(i);
-                Reception rec = new Reception
-                        (jaxbRec.getDate(), jaxbRec.getShift(), jaxbRec.getCount());
-                addRec(rec);
+                try {
+                    Reception rec = new Reception
+                            (jaxbRec.getDate(), jaxbRec.getShift(), jaxbRec.getCount());
+                    addRec(rec);
+                }catch(WrongUsage ex){
+                    System.out.println("Wrong shift or count");
+                }
             }
         } catch (JAXBException | IOException e) {
             e.printStackTrace();

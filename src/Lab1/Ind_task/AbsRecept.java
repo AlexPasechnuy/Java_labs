@@ -1,4 +1,7 @@
 package Lab1.Ind_task;
+import Lab1.GenLib.WrongUsage;
+import Lab2.SortInt.NonPositiveException;
+
 import java.text.SimpleDateFormat;
 import java.util.*;
 
@@ -12,9 +15,9 @@ public abstract class AbsRecept implements Comparable<AbsRecept> {
 
     public abstract void setDay(String day);
 
-    public abstract void setShift(int shift);
+    public abstract void setShift(int shift)throws WrongUsage;
 
-    public abstract void setCount(int count);
+    public abstract void setCount(int count)throws WrongUsage;
 
     @Override
     public String toString(){

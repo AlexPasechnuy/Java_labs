@@ -1,5 +1,6 @@
 package Lab3.IndTask;
 
+import Lab1.GenLib.WrongUsage;
 import Lab1.Ind_task.AbsDoctor;
 import Lab1.Ind_task.AbsRecept;
 import Lab1.Ind_task.DoctorArr;
@@ -172,14 +173,24 @@ public class DoctorConroller implements Initializable {
         for(DoctorArr dct : doctors){
             if(((doc.getSurn().indexOf(dct.getSurn()))==0 && doc.getSurn().length() == dct.getSurn().length())
                     &&( (doc.getSpec().indexOf(dct.getSpec()))==0&& doc.getSpec().length() == dct.getSpec().length())){
-                dct.addRec(new Reception(dateAdd.getText(), Integer.parseInt(shiftAdd.getText())
-                        , Integer.parseInt(countAdd.getText())));
+                try {
+                    dct.addRec(new Reception(dateAdd.getText(), Integer.parseInt(shiftAdd.getText())
+                            , Integer.parseInt(countAdd.getText())));
+                }catch (WrongUsage ex){
+                    showError("Wrong shift or count");
+                    return;
+                }
                 docTableInit();
                 return;
             }
         }
+        try{
         doc.addRec(new Reception(dateAdd.getText(), Integer.parseInt(shiftAdd.getText())
                 , Integer.parseInt(countAdd.getText())));
+        }catch (WrongUsage ex){
+            showError("Wrong shift or count");
+            return;
+        }
         doctors.add(doc);
         docTableInit();
     }

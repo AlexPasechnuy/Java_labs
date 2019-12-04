@@ -33,7 +33,7 @@ public class DiffWords {
     }
 
     public static void main(String[] args) {
-        DiffWords wrds = new DiffWords();
+        DiffWords wrds = new DiffWords("Hello my name is Alex Hello my name name");
         System.out.println(wrds.getSet());
     }
 }

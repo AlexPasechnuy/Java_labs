@@ -1,5 +1,6 @@
 package Lab2.IndTask;
 
+import Lab1.GenLib.WrongUsage;
 import Lab1.Ind_task.DoctorArr;
 import Lab1.Ind_task.Reception;
 
@@ -30,7 +31,10 @@ public class TextFileDoctor extends DoctorArr implements FileWorkInter{
                         String day = st.nextToken();
                         int shift = Integer.parseInt(st.nextToken());
                         int count = Integer.parseInt(st.nextToken());
-                        addRec(new Reception(day, shift, count));
+                        try{addRec(new Reception(day, shift, count));}
+                        catch(WrongUsage ex){
+                            System.out.println("Wrong shift or count");
+                        }
                     }
                 } finally {
                     br.close();

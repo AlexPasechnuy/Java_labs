@@ -1,16 +1,21 @@
 package Lab1.Ind_task;
 
+import Lab1.GenLib.WrongUsage;
+
 public class Main {
     public static void main(String[] args) {
         //using array
         System.out.println("\n\nUsing array \n");
-
         DoctorArr arrdoc = new DoctorArr("Johnson", "Therapist");
-        arrdoc.checkAndAddRec(new Reception("22.11.2019", 4, 5));
-        arrdoc.checkAndAddRec(new Reception("22.11.2019", 1, 29));
-        arrdoc.checkAndAddRec(new Reception("25.11.2019", 8, 4));
-        arrdoc.checkAndAddRec(new Reception("27.11.2019", 2, 3));
-        arrdoc.checkAndAddRec(new Reception("28.11.2019", 4, 5));
+        try {
+            arrdoc.checkAndAddRec(new Reception("22.11.2019", 4, 5));
+            arrdoc.checkAndAddRec(new Reception("22.11.2019", 1, 29));
+            arrdoc.checkAndAddRec(new Reception("25.11.2019", 8, 4));
+            arrdoc.checkAndAddRec(new Reception("27.11.2019", 2, 3));
+            arrdoc.checkAndAddRec(new Reception("28.11.2019", 4, 5));
+        }catch(WrongUsage ex){
+            System.out.println("Wrong values of shift or count");
+        }
         System.out.println(arrdoc);
 
         System.out.println("Doctors are equal:" + arrdoc.equals(new DoctorArr("Johnson", "Therapist")) + '\n');
@@ -31,10 +36,14 @@ public class Main {
         //using list
         System.out.println("\n\nUsing list \n");
         DoctorList listdoc = new DoctorList("Johnson", "Therapist");
+        try {
         listdoc.checkAndAddRec(new Reception("22.11.2019", 4, 5));
         listdoc.checkAndAddRec(new Reception("25.11.2019", 8, 4));
         listdoc.checkAndAddRec(new Reception("27.11.2019", 2, 3));
         listdoc.checkAndAddRec(new Reception("28.11.2019", 4, 5));
+        }catch(WrongUsage ex){
+            System.out.println("Wrong values of shift or count");
+        }
         System.out.println(listdoc);
 
         System.out.println("Doctors are equal:" + listdoc.equals(new DoctorList("Johnson", "Therapist")) + '\n');
