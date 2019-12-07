@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane minHeight="600.0" minWidth="500.0" prefHeight="626.0" prefWidth="845.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Lab4.IndTask.IndTaskController">
+  <center>
+    <LineChart fx:id="graph" prefHeight="626.0" prefWidth="586.0">
+      <xAxis>
+        <NumberAxis side="BOTTOM" />
+      </xAxis>
+      <yAxis>
+        <NumberAxis side="LEFT" />
+      </yAxis>
+    </LineChart>
+  </center>
+  <left>
+    <Pane prefHeight="626.0" prefWidth="271.0">
+      <children>
+        <TextField fx:id="fFuncText" layoutX="14.0" layoutY="25.0" prefHeight="27.9609375" prefWidth="243.0" promptText="f(x)" />
+        <TextField fx:id="gFuncText" layoutX="14.0" layoutY="68.0" prefHeight="27.9609375" prefWidth="243.0" promptText="g(x)" />
+        <TextField fx:id="XFromText" layoutX="14.0" layoutY="117.0" prefHeight="27.9609375" prefWidth="63.0" promptText="X: From" />
+        <TextField fx:id="XToText" layoutX="104.0" layoutY="117.0" prefHeight="27.9609375" prefWidth="63.0" promptText="X: To" />
+        <TextField fx:id="XStepText" layoutX="194.0" layoutY="117.0" prefHeight="27.9609375" prefWidth="63.0" promptText="X: Step" />
+        <TextField fx:id="YFromText" layoutX="14.0" layoutY="182.0" prefHeight="27.9609375" prefWidth="63.0" promptText="Y: From" />
+        <TextField fx:id="YToText" layoutX="104.0" layoutY="182.0" prefHeight="27.9609375" prefWidth="63.0" promptText="Y: To" />
+        <TextField fx:id="YStepText" layoutX="194.0" layoutY="182.0" prefHeight="27.9609375" prefWidth="63.0" promptText="Y: Step" />
+        <TextField fx:id="AText" layoutX="41.0" layoutY="260.0" prefHeight="27.9609375" prefWidth="63.0" promptText="a" />
+        <TextField fx:id="BText" layoutX="167.0" layoutY="260.0" prefHeight="27.9609375" prefWidth="63.0" promptText="b" />
+        <Button fx:id="Run" layoutX="66.0" layoutY="328.0" mnemonicParsing="false" onAction="#constructClick" prefHeight="28.0" prefWidth="139.0" text="Run">
+          <font>
+            <Font size="16.0" fx:id="x1" />
+          </font>
+        </Button>
+        <Button fx:id="Clear" font="$x1" layoutX="66.0" layoutY="393.0" mnemonicParsing="false" onAction="#clearClick" prefHeight="28.0" prefWidth="139.0" text="Clear" />
+      </children>
+    </Pane>
+  </left>
+</BorderPane>
