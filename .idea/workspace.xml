@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9e7cae-1632-483a-985e-7a140dcba507" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/IndTask.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/IndTask.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/IndTaskController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/IndTaskController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +19,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="1785">
+                    <caret line="124" column="60" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="60" />
+                    <folding>
+                      <element signature="e#3245#3246#0" expanded="true" />
+                      <element signature="e#3287#3288#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="48" selection-start-line="48" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="50" column="30" selection-start-line="48" selection-end-line="54" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,31 +60,49 @@
         <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalcController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="894">
+              <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="451">
+              <caret line="83" column="76" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -64,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="184" lean-forward="true" selection-start-line="10" selection-start-column="184" selection-end-line="10" selection-end-column="184" />
+            <state relative-caret-position="238">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
@@ -107,6 +153,7 @@
       <find>copy</find>
       <find>parse</find>
       <find>slee</find>
+      <find>obser</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Alex\Documents\1.University\Programming\Java\Labs\src</dir>
@@ -119,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java" />
         <option value="$PROJECT_DIR$/src/Lab3/IndTask/Doctor.fxml" />
         <option value="$PROJECT_DIR$/src/Lab1/Ind_task/DoctorArr.java" />
         <option value="$PROJECT_DIR$/src/Lab3/IndTask/xml.xml" />
@@ -167,9 +213,10 @@
         <option value="$PROJECT_DIR$/src/Lab4/IndTask2/PiCalcFX.java" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask2/IndTaskFX.java" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask2/IndTask.fxml" />
+        <option value="$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java" />
+        <option value="$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java" />
-        <option value="$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java" />
       </list>
     </option>
   </component>
@@ -187,8 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,6 +245,12 @@
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
@@ -218,12 +269,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575730043398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575750416129" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lab3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -233,19 +286,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\IndTask" />
-      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src" />
-      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\PiCalc" />
-      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs" />
-      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\PrimeFactors" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\IndTask2" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\IndTask" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\PiCalc" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\PrimeFactors" />
       <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab3\IndTask" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\IndTask" />
+      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src" />
+      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\PiCalc" />
+      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs" />
+      <recent name="D:\Alex\Documents\1.University\Programming\Java\Labs\src\Lab4\PrimeFactors" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -342,8 +395,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.IndTaskFX" />
-        <item itemvalue="Application.IndTaskFX (1)" />
         <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.IndTaskFX (1)" />
         <item itemvalue="Application.PiCalcFX" />
         <item itemvalue="Application.FactorsFX" />
       </list>
@@ -421,18 +474,18 @@
       <workItem from="1575650036877" duration="1159000" />
       <workItem from="1575651737449" duration="8307000" />
       <workItem from="1575709037464" duration="11083000" />
-      <workItem from="1575728684249" duration="1358000" />
+      <workItem from="1575728684249" duration="1473000" />
+      <workItem from="1575746146781" duration="4265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214433000" />
+    <option name="totallyTimeSpent" value="218813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-549" width="1096" height="1936" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2046332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2084942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,7 +495,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3275281" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32799014" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49903288" visible="true" weight="0.19550562" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49903288" visible="true" weight="0.19550562" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.3994382" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -675,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="76" selection-start-line="76" selection-end-line="79" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/DoctorArr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -737,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -758,22 +797,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/new.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalc.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="48" selection-start-line="48" selection-end-line="54" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,44 +814,60 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/new.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="306">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
+    <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="451">
+          <caret line="83" column="76" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="124" column="60" lean-forward="true" selection-start-line="124" selection-start-column="19" selection-end-line="124" selection-end-column="60" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#3245#3246#0" expanded="true" />
+            <element signature="e#3287#3288#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalc.fxml">
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalcController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="50" column="30" selection-start-line="48" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -829,36 +876,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="894">
+          <caret line="70" column="32" lean-forward="true" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="184" lean-forward="true" selection-start-line="10" selection-start-column="184" selection-end-line="10" selection-end-column="184" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

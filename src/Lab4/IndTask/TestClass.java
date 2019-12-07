@@ -102,9 +102,6 @@ public class TestClass extends Application {
             graphNode.getChildren().add(newChart);
             double h = abs((Double.parseDouble(fieldToX.getText()) - Double.parseDouble(fieldFromX.getText())) / 100);
             double a = Double.parseDouble(fieldA.getText());
-            if(a==0) {
-            throw new Exception();
-            }
             double b = Double.parseDouble(fieldB.getText());
             XYChart.Series<Number, Number> gSeries = new XYChart.Series<>();
             for (double x = Double.parseDouble(fieldFromX.getText()); x <= Double.parseDouble(fieldToX.getText()); x += h) {

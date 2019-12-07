@@ -10,14 +10,18 @@
 
 <BorderPane minHeight="600.0" minWidth="500.0" prefHeight="626.0" prefWidth="845.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Lab4.IndTask.IndTaskController">
   <center>
-    <LineChart fx:id="graph" prefHeight="626.0" prefWidth="586.0">
-      <xAxis>
-        <NumberAxis side="BOTTOM" />
-      </xAxis>
-      <yAxis>
-        <NumberAxis side="LEFT" />
-      </yAxis>
-    </LineChart>
+    <BorderPane fx:id="graphPane" prefHeight="200.0" prefWidth="200.0">
+      <center>
+        <LineChart id="LineChartNxN">
+          <xAxis>
+            <NumberAxis side="BOTTOM" />
+          </xAxis>
+          <yAxis>
+            <NumberAxis side="LEFT" />
+          </yAxis>
+        </LineChart>
+      </center>
+    </BorderPane>
   </center>
   <left>
     <Pane prefHeight="626.0" prefWidth="271.0">

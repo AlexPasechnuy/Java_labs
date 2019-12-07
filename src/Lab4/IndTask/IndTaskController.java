@@ -1,15 +1,22 @@
 package Lab4.IndTask;
 
+import Lab1.GenLib.WrongUsage;
+import Lab1.Minimum.WrongMinimum;
 import javafx.event.Event;
 import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.scene.control.*;
+import javafx.scene.layout.BorderPane;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 import static java.lang.Math.abs;
 
-public class IndTaskController {
+public class IndTaskController implements Initializable {
 
     @FXML private Button Run;
     @FXML private Button Clear;
@@ -23,10 +30,14 @@ public class IndTaskController {
     @FXML private TextField YStepText;
     @FXML private TextField AText;
     @FXML private TextField BText;
-    @FXML private LineChart<Number, Number> graph;
+    @FXML private BorderPane graphPane;
 
-    public void setGraph(LineChart<Number,Number> graphChart){
-        this.graph=graphChart;
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        NumberAxis xAxis = new NumberAxis(-5, 5, 1);
+        NumberAxis yAxis = new NumberAxis(-5, 5, 1);
+        graphPane.getChildren().clear();
+        graphPane.setCenter(new LineChart<Number,Number>(xAxis,yAxis));
     }
 
     @FXML
@@ -39,25 +50,24 @@ public class IndTaskController {
             }
             LineChart<Number, Number> newChart = new LineChart<>(xAxis, yAxis);
             newChart.setCreateSymbols(false);
+            graphPane.getChildren().clear();
+            graphPane.getChildren().add(newChart);
             double h = abs((Double.parseDouble(XToText.getText()) - Double.parseDouble(XFromText.getText())) / 100);
             double a = Double.parseDouble(AText.getText());
-            if(a==0) {
-                throw new Exception();
-            }
             double b = Double.parseDouble(BText.getText());
             XYChart.Series<Number, Number> gSeries = new XYChart.Series<>();
             for (double x = Double.parseDouble(XFromText.getText()); x <= Double.parseDouble(XToText.getText()); x += h) {
 
-                gSeries.getData().add(new XYChart.Data<>(x, (MetaProgr.f(fFuncText.getText(),x/a))*(MetaProgr.f(gFuncText.getText(),x+b))));
+                gSeries.getData().add(new XYChart.Data<>(x, (MetaProgr.f(fFuncText.getText(),x-a))*(MetaProgr.f(gFuncText.getText(),x+b))));
             }
             newChart.getData().add(gSeries);
-
-
+            graphPane.getChildren().clear();
+            graphPane.setCenter(newChart);
         }
         catch (Exception e){
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Error");
-            alert.setHeaderText("Invalid input");
+            alert.setHeaderText("Wrong FROM or TO");
             alert.showAndWait();
         }
     }
@@ -66,7 +76,8 @@ public class IndTaskController {
     private void clearClick(Event event){
         NumberAxis xAxis = new NumberAxis(-5, 5, 1);
         NumberAxis yAxis = new NumberAxis(-5, 5, 1);
-        graph=new LineChart<Number,Number>(xAxis,yAxis);
+        graphPane.getChildren().clear();
+        graphPane.setCenter(new LineChart<Number,Number>(xAxis,yAxis));
         XFromText.setText("");
         XToText.setText("");
         XStepText.setText("");
