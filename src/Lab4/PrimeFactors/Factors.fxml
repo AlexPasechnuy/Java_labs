@@ -5,23 +5,25 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<BorderPane prefHeight="724.0" prefWidth="902.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Lab4.PrimeFactors.FactorsConroller">
+<BorderPane minHeight="600.0" minWidth="500.0" prefHeight="626.0" prefWidth="845.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Lab4.PrimeFactors.FactorsConroller">
   <center>
+    <TextArea fx:id="ResultsText" prefHeight="598.0" prefWidth="385.0" wrapText="true" />
+  </center>
+  <left>
     <Pane prefHeight="200.0" prefWidth="200.0">
       <children>
-        <TextField fx:id="FromText" layoutX="28.0" layoutY="34.0" prefHeight="29.9609375" prefWidth="111.99997792968497" promptText="From" />
-        <TextField fx:id="ToText" layoutX="28.0" layoutY="83.0" prefHeight="29.9609375" prefWidth="112.0" promptText="To" />
-        <TextArea fx:id="ResultsText" layoutX="165.0" layoutY="14.0" prefHeight="696.0" prefWidth="723.0" wrapText="true" />
-        <ProgressIndicator fx:id="progressIndicator" layoutX="57.0" layoutY="631.0" prefHeight="62.0" prefWidth="54.0" progress="0.0" />
-        <Button fx:id="StartButton" layoutX="29.0" layoutY="132.0" mnemonicParsing="false" onAction="#startClick" prefHeight="23.9609375" prefWidth="112.0" text="Start">
+        <TextField fx:id="FromText" layoutX="14.0" layoutY="27.0" prefHeight="31.9609375" prefWidth="172.0" promptText="From" />
+        <TextField fx:id="ToText" layoutX="14.0" layoutY="81.0" prefHeight="31.9609375" prefWidth="172.0" promptText="To" />
+        <Button fx:id="StartButton" layoutX="14.0" layoutY="136.0" mnemonicParsing="false" onAction="#startClick" prefHeight="31.9609375" prefWidth="172.0" text="Start">
           <font>
-            <Font size="14.0" fx:id="x1" />
+            <Font size="18.0" fx:id="x1" />
           </font>
         </Button>
-        <Button fx:id="SuspendButton" font="$x1" layoutX="29.0" layoutY="179.0" mnemonicParsing="false" onAction="#suspendClick" prefHeight="23.9609375" prefWidth="112.0" text="Suspend" />
-        <Button fx:id="ResumeButton" font="$x1" layoutX="29.0" layoutY="230.0" mnemonicParsing="false" onAction="#resumeClick" prefHeight="23.9609375" prefWidth="112.0" text="Resume" />
-        <Button fx:id="StopButton" font="$x1" layoutX="29.0" layoutY="282.0" mnemonicParsing="false" onAction="#stopClick" prefHeight="23.9609375" prefWidth="112.0" text="Stop" />
+        <Button fx:id="SuspendButton" font="$x1" layoutX="14.0" layoutY="184.0" mnemonicParsing="false" onAction="#suspendClick" prefHeight="31.9609375" prefWidth="172.0" text="Suspend" />
+        <Button fx:id="ResumeButton" font="$x1" layoutX="14.0" layoutY="232.0" mnemonicParsing="false" onAction="#resumeClick" prefHeight="31.9609375" prefWidth="172.0" text="Resume" />
+        <Button fx:id="StopButton" font="$x1" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" onAction="#stopClick" prefHeight="31.9609375" prefWidth="172.0" text="Stop" />
+        <ProgressIndicator fx:id="progressIndicator" layoutX="14.0" layoutY="383.0" prefHeight="170.0" prefWidth="172.0" progress="0.0" />
       </children>
     </Pane>
-  </center>
+  </left>
 </BorderPane>

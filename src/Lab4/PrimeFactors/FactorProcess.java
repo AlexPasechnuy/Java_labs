@@ -26,11 +26,11 @@ public class FactorProcess implements Runnable {
         return to;
     }
 
-    public void setTo(int to) {
+    public void setTo(int to){
         if(to < from){throw new IllegalArgumentException();}
         this.to = to;
     }
-    public void setFrom(int from) {
+    public void setFrom(int from){
         if(from <= 0){throw new IllegalArgumentException();}
         this.from = from;
     }
@@ -66,6 +66,7 @@ public class FactorProcess implements Runnable {
     private synchronized void setStopped(boolean stopped) {
         this.stopped = stopped;
     }
+
     private boolean isPrime(int number){
         for(int i=2;i<=number/2;i++){
             if(number%i==0){

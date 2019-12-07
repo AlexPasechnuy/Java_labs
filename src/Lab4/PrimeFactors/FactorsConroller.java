@@ -48,13 +48,16 @@ public class FactorsConroller implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
+        StartButton.setDisable(false);
+        SuspendButton.setDisable(true);
+        ResumeButton.setDisable(true);
+        StopButton.setDisable(true);
     }
 
     @FXML private void startClick(ActionEvent actionEvent) {
         try {
-            primeNumbers.setTo(Integer.parseInt(ToText.getText()));
             primeNumbers.setFrom(Integer.parseInt(FromText.getText()));
+            primeNumbers.setTo(Integer.parseInt(ToText.getText()));
             ResultsText.setText("");
             progressIndicator.setProgress(0);
             StartButton.setDisable(true);
@@ -92,10 +95,11 @@ public class FactorsConroller implements Initializable {
     }
 
     private void addToTextArea() {
-        for(int i=0;i<primeNumbers.getLastFound().size();i++) {
-            ResultsText.setText(ResultsText.getText() + primeNumbers.getLastFound().get(i) + " ");
+        String res = primeNumbers.getLastFound().get(0) + ": ";
+        for(int i=1;i<primeNumbers.getLastFound().size();i++) {
+            res += primeNumbers.getLastFound().get(i) + " ";
         }
-        ResultsText.setText(ResultsText.getText()+"\n");
+        ResultsText.setText(ResultsText.getText()+ res +"\n");
     }
 
     private void setProgress() {
