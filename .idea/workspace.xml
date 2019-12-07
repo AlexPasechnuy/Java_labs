@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/Lab3/Dictionary/DictConroller.java" line="122" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca9e7cae-1632-483a-985e-7a140dcba507" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab4/PrimeFactors/Factors.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab4/PrimeFactors/Factors.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca9e7cae-1632-483a-985e-7a140dcba507" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab4/SelectedClassFunc/Classes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab4/SelectedClassFunc/Main.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,17 +32,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1537">
-              <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+            <state relative-caret-position="789">
+              <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#3026#3027#0" expanded="true" />
                 <element signature="e#3061#3062#0" expanded="true" />
                 <element signature="e#3367#3368#0" expanded="true" />
                 <element signature="e#3442#3443#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MathExpr/Solver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -154,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lab2/SAXandDOM/DOM.java" />
         <option value="$PROJECT_DIR$/src/Lab2/IndTask/JAXBSchema/Doctor.java" />
         <option value="$PROJECT_DIR$/src/Lab2/IndTask/JAXBSchema/IndTask.xsd" />
         <option value="$PROJECT_DIR$/src/Lab2/SortInt/DecrDigitsSumComp.java" />
@@ -205,6 +201,7 @@
         <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml" />
         <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorProcess.java" />
         <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java" />
+        <option value="$PROJECT_DIR$/src/MathExpr/Solver.java" />
       </list>
     </option>
   </component>
@@ -244,8 +241,7 @@
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab4" type="462c0819:PsiDirectoryNode" />
-              <item name="PrimeFactors" type="462c0819:PsiDirectoryNode" />
+              <item name="MathExpr" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575711151867" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575720573847" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lab3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -294,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FactorsFX">
+  <component name="RunManager" selected="Application.Solver">
     <configuration name="BlockingQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.BlockingQueue.BlockingQueueDemo" />
       <module name="Labs" />
@@ -314,19 +310,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Lab4.PrimeFactors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GetInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.ClassFields.GetInfo" />
-      <module name="Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab4.ClassFields.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,13 +343,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathExpr.Solver" />
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MathExpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solver" />
         <item itemvalue="Application.FactorsFX" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BlockingQueueDemo" />
-        <item itemvalue="Application.GetInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -441,12 +437,12 @@
       <workItem from="1575620637585" duration="4142000" />
       <workItem from="1575650036877" duration="1159000" />
       <workItem from="1575651737449" duration="8307000" />
-      <workItem from="1575709037464" duration="1999000" />
+      <workItem from="1575709037464" duration="3085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203991000" />
+    <option name="totallyTimeSpent" value="205077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1088" y="-549" width="1096" height="1936" extended-state="6" />
@@ -486,16 +482,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lab2/WorkWithZip/ToZip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="11" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/Dictionary/Dict.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_231/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -858,14 +844,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1537">
-          <caret line="97" column="9" lean-forward="true" selection-start-line="97" selection-start-column="9" selection-end-line="97" selection-end-column="9" />
+        <state relative-caret-position="789">
+          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3026#3027#0" expanded="true" />
             <element signature="e#3061#3062#0" expanded="true" />
             <element signature="e#3367#3368#0" expanded="true" />
             <element signature="e#3442#3443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MathExpr/Solver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
