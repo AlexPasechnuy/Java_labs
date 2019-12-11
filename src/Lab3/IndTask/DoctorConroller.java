@@ -1,28 +1,20 @@
 package Lab3.IndTask;
 
 import Lab1.GenLib.WrongUsage;
-import Lab1.Ind_task.AbsDoctor;
-import Lab1.Ind_task.AbsRecept;
-import Lab1.Ind_task.DoctorArr;
-import Lab1.Ind_task.Reception;
-import Lab2.IndTask.JAXBSchema.Doctor;
+import Lab1.IndTask.*;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.control.cell.TextFieldTableCell;
 import javafx.stage.FileChooser;
-import javafx.util.Callback;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 
-import javax.xml.bind.JAXBException;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;

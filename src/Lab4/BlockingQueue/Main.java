@@ -5,17 +5,14 @@ import java.util.concurrent.BlockingQueue;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        // Створюємо чергу з 10 елементів:
         BlockingQueue<Integer> queue = new ArrayBlockingQueue<>(10);
 
-        // Створюємо і запускаємо два потоки - для запису і читання:
-        Thread adderThread = new Thread(new Adder(queue, 100));
-        Thread averagerThread = new Thread(new Averager(queue, 100));
+        Thread adderThread = new Thread(new Adder(queue, 5));
+        Thread averagerThread = new Thread(new Averager(queue, 5));
         adderThread.start();
         averagerThread.start();
 
-        // Чекаємо 10 секунд і перериваємо перший потік:
-        Thread.sleep(20000);
+        Thread.sleep(500);
         adderThread.interrupt();
         averagerThread.interrupt();
     }

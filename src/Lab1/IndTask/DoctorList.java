@@ -1,4 +1,4 @@
-package Lab1.Ind_task;
+package Lab1.IndTask;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,6 +13,11 @@ public class DoctorList extends AbsDoctor {
     DoctorList(String surn, String spec){
         this.surn = surn;
         this.spec = spec;
+    }
+
+    DoctorList(){
+        this.surn = "";
+        this.spec = "";
     }
 
     public String getSurn(){return surn;}

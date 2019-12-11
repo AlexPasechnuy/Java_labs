@@ -1,8 +1,8 @@
 package Lab2.IndTask;
 
 import Lab1.GenLib.WrongUsage;
-import Lab1.Ind_task.DoctorArr;
-import Lab1.Ind_task.Reception;
+import Lab1.IndTask.DoctorArr;
+import Lab1.IndTask.Reception;
 
 import java.io.*;
 import java.util.*;

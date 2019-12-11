@@ -14,17 +14,16 @@ class Averager implements Runnable {
     }
 
     public void run() {
-        // Вилучаємо числа:
         try {
             for (int i = 1; i <= countToTake; i++) {
-//                System.out.printf("Taken by customer: %d%n", queue.take());
                 sum += queue.take();
                 num++;
                 System.out.println("Average: " + sum/num);
+                Thread.sleep(100);
             }
         }
         catch (InterruptedException e) {
-            System.out.println("Consumer interrupted");
+            System.out.println("Averager interrupted");
         }
     }
 }

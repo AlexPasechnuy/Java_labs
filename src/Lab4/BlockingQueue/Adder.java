@@ -1,6 +1,5 @@
 package Lab4.BlockingQueue;
 
-import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 class Adder implements Runnable {
@@ -13,7 +12,6 @@ class Adder implements Runnable {
     }
 
     public void run() {
-        // Намагаємося додавати числа:
         try {
             for (int i = 1; i <= countToAdd; i++) {
                 queue.put(i);
@@ -22,7 +20,7 @@ class Adder implements Runnable {
             }
         }
         catch (InterruptedException e) {
-            System.out.println("Producer interrupted");
+            System.out.println("Adder interrupted");
         }
     }
 }

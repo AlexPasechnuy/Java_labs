@@ -1,12 +1,12 @@
-package Lab1.Ind_task;
+package Lab1.IndTask;
 
 import Lab1.GenLib.WrongUsage;
 
 public class Main {
     public static void main(String[] args) {
-        //using array
+        //////////////////////////////using array
         System.out.println("\n\nUsing array \n");
-        DoctorArr arrdoc = new DoctorArr("Johnson", "Therapist");
+        DoctorArr arrdoc = new DoctorArr("Johnson","Therapist");
         try {
             arrdoc.checkAndAddRec(new Reception("22.11.2019", 4, 5));
             arrdoc.checkAndAddRec(new Reception("22.11.2019", 1, 29));
@@ -33,7 +33,7 @@ public class Main {
             System.out.println(rec[i].toString());
         }
 
-        //using list
+        ////////////////////////////////using list
         System.out.println("\n\nUsing list \n");
         DoctorList listdoc = new DoctorList("Johnson", "Therapist");
         try {

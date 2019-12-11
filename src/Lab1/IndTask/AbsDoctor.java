@@ -1,4 +1,4 @@
-package Lab1.Ind_task;
+package Lab1.IndTask;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

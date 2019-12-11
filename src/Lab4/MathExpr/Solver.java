@@ -1,4 +1,4 @@
-package MathExpr;
+package Lab4.MathExpr;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;

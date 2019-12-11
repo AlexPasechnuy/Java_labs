@@ -1,4 +1,4 @@
-package Lab1.Ind_task;
+package Lab1.IndTask;
 import Lab1.GenLib.WrongUsage;
 import Lab2.SortInt.NonPositiveException;
 
