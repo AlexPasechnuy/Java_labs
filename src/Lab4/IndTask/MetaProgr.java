@@ -4,18 +4,18 @@ import Lab1.GenLib.WrongUsage;
 
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
+import java.util.Scanner;
 
 public class MetaProgr {
-    public static double f(String function, double x) throws WrongUsage{
+    public static double f(String function, double x) throws WrongUsage {
         ScriptEngineManager factory = new ScriptEngineManager();
-        ScriptEngine engine=factory.getEngineByName("JavaScript");
-        engine.put("x",x);
-        Object result=null;
+        ScriptEngine engine = factory.getEngineByName("JavaScript");
+        engine.put("x", x);
+        Object result = null;
         try {
-            result = engine.eval(function+";");
+            result = engine.eval(function + ";");
 
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             throw new WrongUsage();
         }
         return (double) result;

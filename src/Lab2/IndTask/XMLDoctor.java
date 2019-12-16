@@ -8,7 +8,7 @@ import Lab2.IndTask.JAXBSchema.Doctor;
 import javax.xml.bind.*;
 import java.io.*;
 
-public class XMLDoctor extends DoctorArr implements FileWorkInter {
+public class XMLDoctor extends DoctorArr implements DoctorFileInter {
     Doctor doc;
     JAXBContext jaxbContext;
     public void fileRead(String filename) {

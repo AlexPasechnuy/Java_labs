@@ -6,36 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ca9e7cae-1632-483a-985e-7a140dcba507" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/AbsDoctor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/AbsRecept.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/DoctorArr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/DoctorList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/Reception.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab1/Ind_task/VisCountComp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/TextFileDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/TextFileDoctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/DoctorJAXB.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/DoctorJAXB.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/XMLDoctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab2/IndTask/XMLDoctor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab3/IndTask/DoctorConroller$TableRow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab3/IndTask/DoctorConroller$TableRow.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab3/IndTask/DoctorConroller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab3/IndTask/DoctorConroller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/TestClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/AbsDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/AbsDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/AbsRecept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/AbsRecept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/DoctorArr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/DoctorArr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/DoctorList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/DoctorList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/Reception.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/Reception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ind_task/VisCountComp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/IndTask/VisCountComp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/MetaProgr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Labs/Lab4/IndTask/MetaProgr.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/DoctorJAXB.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/DoctorJAXB.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/FileWorkInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/DoctorFileInter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskDest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskDest.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/BlockingQueue/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/BlockingQueue/Adder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/BlockingQueue/Averager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/BlockingQueue/Averager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/BlockingQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/BlockingQueue/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/MathExpr/Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/MathExpr/Solver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,10 +28,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+            <state relative-caret-position="646">
+              <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,10 +40,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/DoctorFileInter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/DoctorFileFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="59" column="68" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,10 +75,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab3/Dictionary/DictConroller.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="935">
+              <caret line="55" column="35" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="55" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,20 +86,8 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab3/DiffWords/DiffWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab3/Enum/Main.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/FactoryMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -106,45 +96,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskDest.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Lab3/MiniCalc/Calculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/FileWorkInter.java">
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskSrc.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -176,12 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Lab4/ClassFields/GetInfo.java" />
-        <option value="$PROJECT_DIR$/src/Lab4/ClassFields/Car.java" />
-        <option value="$PROJECT_DIR$/src/Lab4/BlockingQueue/Consumer.java" />
-        <option value="$PROJECT_DIR$/src/Lab4/BlockingQueue/Producer.java" />
-        <option value="$PROJECT_DIR$/src/Lab4/SelectedClassFunc/Classes.java" />
-        <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/Doctor.fxml" />
         <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/PrimeFactorsFX.java" />
         <option value="$PROJECT_DIR$/src/Lab4/SelectedClassFunc/Main.java" />
         <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsFX.java" />
@@ -196,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/Lab4/PiCalc/PiCalcThread.java" />
         <option value="$PROJECT_DIR$/src/Lab4/PiCalc/PiCalcController.java" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask/PiCalc.fxml" />
-        <option value="$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java" />
         <option value="$PROJECT_DIR$/src/IndTaskController.java" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask/new.fxml" />
         <option value="$PROJECT_DIR$/src/Lab4/IndTask2/PiCalc.fxml" />
@@ -215,7 +179,6 @@
         <option value="$PROJECT_DIR$/src/Lab1/IndTask/DoctorArr.java" />
         <option value="$PROJECT_DIR$/src/Lab1/IndTask/DoctorList.java" />
         <option value="$PROJECT_DIR$/src/Lab1/IndTask/AbsRecept.java" />
-        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" />
         <option value="$PROJECT_DIR$/src/Lab1/IndTask/Reception.java" />
         <option value="$PROJECT_DIR$/src/Lab1/IndTask/Main.java" />
         <option value="$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java" />
@@ -224,17 +187,25 @@
         <option value="$PROJECT_DIR$/src/Lab4/BlockingQueue/Averager.java" />
         <option value="$PROJECT_DIR$/src/Lab4/BlockingQueue/Main.java" />
         <option value="$PROJECT_DIR$/src/Lab4/MathExpr/Solver.java" />
-        <option value="$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml" />
-        <option value="$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java" />
         <option value="$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java" />
+        <option value="$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java" />
+        <option value="$PROJECT_DIR$/src/Lab1/GenLib/WrongUsage.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/DoctorFactory.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextDoctorFileDoctor.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/DoctorFileFactory.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/FactoryMain.java" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskDest.txt" />
+        <option value="$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-842" />
-    <option name="y" value="-633" />
-    <option name="width" value="617" />
-    <option name="height" value="617" />
+    <option name="x" value="-1087" />
+    <option name="y" value="419" />
+    <option name="width" value="1096" />
+    <option name="height" value="967" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -244,6 +215,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,20 +233,33 @@
               <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
               <item name="Labs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="IndTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Labs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Labs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab2" type="462c0819:PsiDirectoryNode" />
+              <item name="IndTask" type="462c0819:PsiDirectoryNode" />
+              <item name="TextFiles" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575998577020" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576513579395" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/lab3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -310,7 +296,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.XMLDoctor">
+  <component name="RunManager" selected="Application.FactoryMain">
+    <configuration name="DictFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Dictionary.DictFX" />
+      <module name="Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Dictionary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FactorsFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.PrimeFactors.FactorsFX" />
       <module name="Labs" />
@@ -324,12 +323,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.SelectedClassFunc.Main" />
+    <configuration name="FactoryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2.IndTask.FactoryMain" />
       <module name="Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab4.SelectedClassFunc.*" />
+          <option name="PATTERN" value="Lab2.IndTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -337,38 +336,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.BlockingQueue.Main" />
+    <configuration name="MetaProgr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab4.IndTask.MetaProgr" />
       <module name="Labs" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab4.BlockingQueue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PiCalcFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.PiCalc.PiCalcFX" />
-      <module name="Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab4.PiCalc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.MathExpr.Solver" />
-      <module name="Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab4.MathExpr.*" />
+          <option name="PATTERN" value="Lab4.IndTask.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -391,11 +364,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XMLDoctor" />
-        <item itemvalue="Application.Solver" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.FactoryMain" />
         <item itemvalue="Application.FactorsFX" />
+        <item itemvalue="Application.DictFX" />
+        <item itemvalue="Application.MetaProgr" />
+        <item itemvalue="Application.XMLDoctor" />
       </list>
     </recent_temporary>
   </component>
@@ -475,17 +448,22 @@
       <workItem from="1575746146781" duration="5542000" />
       <workItem from="1575752590173" duration="95000" />
       <workItem from="1575974385472" duration="5943000" />
+      <workItem from="1576250836489" duration="604000" />
+      <workItem from="1576254806012" duration="4534000" />
+      <workItem from="1576338730349" duration="1291000" />
+      <workItem from="1576410293147" duration="2176000" />
+      <workItem from="1576512083667" duration="1417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226128000" />
+    <option name="totallyTimeSpent" value="236150000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1088" y="-627" width="1096" height="1936" extended-state="6" />
+    <frame x="-1088" y="-549" width="1096" height="1936" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21621622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24131274" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,7 +473,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3265306" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32760474" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49903288" weight="0.23258427" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49903288" visible="true" weight="0.5078652" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39849624" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -524,25 +502,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Lab3/Dictionary/Dictionary.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" selection-end-line="38" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab3/Dictionary/DictFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="25" column="9" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/ClassFields/Car.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab4/BlockingQueue/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab4/BlockingQueue/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/CalcThread.java" />
     <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalcFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -553,38 +512,6 @@
     <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/new.fxml" />
     <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/TestClass.java" />
     <entry file="file://$PROJECT_DIR$/src/Lab1/Ind_task/DoctorFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="70" column="32" lean-forward="true" selection-end-line="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/ClassFields/GetInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -668,8 +595,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/Doctor.fxml">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/xml.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -696,27 +623,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/Factors.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="206" selection-start-line="7" selection-start-column="206" selection-end-line="7" selection-end-column="206" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -772,12 +689,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalc.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab4/PiCalc/PiCalcThread.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -803,57 +720,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml">
+    <entry file="file://$PROJECT_DIR$/src/Lab3/DiffWords/DiffWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="43" lean-forward="true" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/FileWorkInter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/DoctorJAXB.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/Dictionary/DictConroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab3/DiffWords/DiffWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="238">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -867,20 +747,140 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/IndTask/DoctorConroller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="969">
+          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab3/MiniCalc/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="357">
           <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/MetaProgr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="21" selection-start-line="10" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab1/GenLib/WrongUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTaskFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/IndTask/IndTask.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab4/PrimeFactors/FactorsConroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="41" selection-start-line="38" selection-start-column="41" selection-end-line="38" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/DoctorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/DoctorJAXB.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/DoctorFileFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/DoctorFileInter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/XMLDoctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="35" lean-forward="true" selection-start-line="22" selection-start-column="69" selection-end-line="55" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFileDoctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="59" column="68" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskSrc.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/TextFiles/indTaskDest.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/Doctor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab2/IndTask/FactoryMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>

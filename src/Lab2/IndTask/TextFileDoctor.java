@@ -7,7 +7,7 @@ import Lab1.IndTask.Reception;
 import java.io.*;
 import java.util.*;
 
-public class TextFileDoctor extends DoctorArr implements FileWorkInter{
+public class TextFileDoctor extends DoctorArr implements DoctorFileInter{
     TextFileDoctor(String surn, String spec) {
         super(surn, spec);
     }
