@@ -47,7 +47,6 @@ public class DoctorConroller implements Initializable {
     public Button addBtn;
 
     public class TableRow{
-
         SimpleDateFormat format = new SimpleDateFormat("dd.MM.yyyy");
         SimpleStringProperty surn,spec, date;
         SimpleIntegerProperty shift,count;
@@ -59,11 +58,46 @@ public class DoctorConroller implements Initializable {
             this.count = new SimpleIntegerProperty(count);
         }
 
-        public String getSurn(){return surn.get();}
-        public String getSpec(){return spec.get();}
-        public String getDate(){return date.get();}
-        public int getShift(){return shift.get();}
-        public int getCount(){return count.get();}
+        public String getSurn(){
+            if(surn == null){
+                surn = new SimpleStringProperty();
+            }
+            return surn.get();
+        }
+
+        public String getSpec(){
+            if(spec == null){
+                spec = new SimpleStringProperty();
+            }
+            return spec.get();
+        }
+
+        public String getDate(){
+            if(date == null){
+                date = new SimpleStringProperty();
+            }
+            return date.get();
+        }
+
+        public int getShift(){
+            if(shift == null){
+                shift = new SimpleIntegerProperty();
+            }
+            return shift.get();
+        }
+
+        public int getCount(){
+            if(count == null){
+                count = new SimpleIntegerProperty();
+            }
+            return count.get();}
+    }
+
+    public List<DoctorArr> getDoctors(){
+        if(doctors == null){
+            doctors = new ArrayList<>();
+        }
+        return doctors;
     }
 
     @Override
@@ -111,7 +145,7 @@ public class DoctorConroller implements Initializable {
                                     Integer.parseInt(reception.getAttributes().getNamedItem("Count").getNodeValue())));
                         }
                     }
-                    doctors.add(doctor);
+                    getDoctors().add(doctor);
                 }
             }
         } catch (Exception e) {
@@ -162,7 +196,7 @@ public class DoctorConroller implements Initializable {
             throw new NullPointerException();
         }
         DoctorArr doc = new DoctorArr(surnAdd.getText(), specAdd.getText());
-        for(DoctorArr dct : doctors){
+        for(DoctorArr dct : getDoctors()){
             if(((doc.getSurn().indexOf(dct.getSurn()))==0 && doc.getSurn().length() == dct.getSurn().length())
                     &&( (doc.getSpec().indexOf(dct.getSpec()))==0&& doc.getSpec().length() == dct.getSpec().length())){
                 try {
@@ -183,7 +217,7 @@ public class DoctorConroller implements Initializable {
             showError("Wrong shift or count");
             return;
         }
-        doctors.add(doc);
+        getDoctors().add(doc);
         docTableInit();
     }
 
@@ -193,7 +227,7 @@ public class DoctorConroller implements Initializable {
         if(surnSearch.getText().isEmpty() || dateSearch.getText().isEmpty()){
             throw new NullPointerException();
         }
-        for(DoctorArr doc : doctors){
+        for(DoctorArr doc : getDoctors()){
             if(doc.getSurn().indexOf(surnSearch.getText().toString()) == 0 && doc.getSurn().length() == surnSearch.getText().length()){
                 result +=doc.getSurn() + ", " + doc.getSpec() + ":\n";
                 AbsRecept[] arr =  doc.searchByDay(dateSearch.getText());
@@ -208,7 +242,7 @@ public class DoctorConroller implements Initializable {
 
     @FXML
     private void doDateSort(javafx.event.ActionEvent event) {
-        for(DoctorArr doc : doctors){
+        for(DoctorArr doc : getDoctors()){
             doc.sortByDay();
         }
         docTableInit();
@@ -216,7 +250,7 @@ public class DoctorConroller implements Initializable {
 
     @FXML
     private void doCountSort(javafx.event.ActionEvent event) {
-        for(DoctorArr doc : doctors){
+        for(DoctorArr doc : getDoctors()){
             doc.sortByVisCount();
         }
         docTableInit();
@@ -266,7 +300,7 @@ public class DoctorConroller implements Initializable {
             doc = db.newDocument();
 
             Element dcts = doc.createElement("Doctors");
-            for(DoctorArr dct: doctors){
+            for(DoctorArr dct: getDoctors()){
                 Element xmlDoc = doc.createElement("Doctor");
                 xmlDoc.setAttribute("Surname", dct.getSurn());
                 xmlDoc.setAttribute("Speciality", dct.getSpec());

@@ -21,9 +21,15 @@ public class DoctorArr extends AbsDoctor implements Serializable {
         this.spec = null;
     }
 
-    public String getSurn(){return surn;}
+    public String getSurn(){
+        if(surn == null){surn = new String();}
+        return surn;
+    }
 
-    public String getSpec(){return spec;}
+    public String getSpec(){
+        if(spec == null){spec = new String();}
+    return spec;
+    }
 
     public void setSurn(String surn){this.surn = surn;}
 
