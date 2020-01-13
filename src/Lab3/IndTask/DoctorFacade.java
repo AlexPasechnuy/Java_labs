@@ -7,15 +7,18 @@ import Lab1.IndTask.Reception;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +40,7 @@ public class DoctorFacade {
 
     public List<DoctorArr> getDoctors(){
         if(doctors == null){
-            doctors = new ArrayList<>();
+                doctors = new ArrayList<>();
         }
         return doctors;
     }
@@ -47,19 +50,18 @@ public class DoctorFacade {
         doctors = new ArrayList<>();
     }
 
-    public void doOpen(String path){
+    public void doOpen(String path) throws WrongUsage{
         try {
             doNew();
             Document doc;
             DocumentBuilder db = DocumentBuilderFactory.newInstance().newDocumentBuilder();
             doc = db.parse(new File(path));
             Node rootNode = doc.getDocumentElement();
-            DoctorArr doctor;
             mainLoop:
             for (int i = 0; i < rootNode.getChildNodes().getLength(); i++) {
                 Node doctorNode = rootNode.getChildNodes().item(i);
                 if (doctorNode.getNodeName().equals("Doctor")) {
-                    doctor = new DoctorArr(doctorNode.getAttributes().getNamedItem("Surname").getNodeValue(),
+                    DoctorArr doctor = new DoctorArr(doctorNode.getAttributes().getNamedItem("Surname").getNodeValue(),
                             doctorNode.getAttributes().getNamedItem("Speciality").getNodeValue());
                     for (int j = 0; j < doctorNode.getChildNodes().getLength(); j++) {
                         Node reception = doctorNode.getChildNodes().item(j);
@@ -72,7 +74,7 @@ public class DoctorFacade {
                     getDoctors().add(doctor);
                 }
             }
-        } catch (Exception e) {
+        }catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
     }
@@ -103,7 +105,6 @@ public class DoctorFacade {
                 dcts.appendChild(xmlDoc);
             }
             doc.appendChild(dcts);
-
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             transformer.transform(new DOMSource(doc),
                     new StreamResult(new FileOutputStream(new File(path))));

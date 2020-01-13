@@ -133,6 +133,8 @@ public class DoctorConroller implements Initializable {
                 docTableInit();
             } catch (IOException e) {
                 showError("No such file");
+            }catch(WrongUsage ex){
+                showError("Wrong shift or count");
             }
         }
     }
